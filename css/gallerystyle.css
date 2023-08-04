@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,900&family=Montserrat:wght@200;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+  /* home section styling */
+.logo h1 {
+    padding-top: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Use Lobster font for the name */
+    font-size: 40px; /* Adjust the font size as needed */
+    color: #f1f3f7; /* Set the color for the name */
+    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+    margin-left: 150px; /* Remove any margin to avoid extra spacing */
+}
+/* Update the following styles for the navbar class */
+.navbar {
+    font-size: 16px;
+    display: flex;
+    justify-content: center; /* Center the navbar horizontally */
+    background-color: transparent; /* Remove the background color */
+    padding-bottom: 0px;
+}
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header {
+  color: #ffffff;
+  background-color: rgba(240, 191, 191, 0.049);
+  padding-bottom: 100px;
+}
+
+/* Remove the underline for the menu links */
+#menu li a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li {
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: #f4f2f2;
+    font-weight: bold;
+}
+
+/* portfolio gallery */
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+  }
+  
+  body {
+      min-height: 100vh;
+      background-color: #070606;
+      color: #fefcfc;
+  }
+  
+  .container1 {
+      max-width: 80rem;
+      max-height: 90rem;
+      margin: 0 auto;
+      padding: 0 2rem 2rem;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-left: 475px;
+    margin-bottom: 2%;
+  }
+  .container2 {
+      max-width: 80rem;
+      max-height: 90rem;
+      margin: 0 auto;
+      padding: 0 2rem 2rem;
+      margin-top: 450px;
+      margin-bottom: 150px;
+  }
+  
+  .heading {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 37%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #f1f3f7;
+    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+    text-decoration: underline; /* Add this line to underline the text */
+    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+  }
+  
+.container1 h3 {
+      margin-left: 350px;
+      margin-bottom: 30px;
+      
+  }
+  
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      /* Compensate for excess margin on outer gallery flex items */
+      margin: -1rem -1rem;
+  }
+
+  
+  .gallery-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease-out;
+  }
+  
+  .gallery-image:hover {
+      transform: scale(1.15);
+  }
+
+  .gallery-item {
+    position: relative; /* Make the image container a positioned element */
+       /* Minimum width of 24rem and grow to fit available space */
+       flex: 1 0 24rem;
+       /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+       margin: 1rem;
+       box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+       overflow: hidden;
+  }
+  
+  .image-description {
+    position: absolute; /* Position the description absolutely inside the gallery-item */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent black background for the pop-up */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hide the description by default */
+    transition: opacity 300ms ease-out; /* Add a smooth transition effect */
+  }
+  
+  .gallery-item:hover .image-description {
+    opacity: 1; /* Show the description when hovering over the gallery-item */
+  }
+  
+  /*
+  The following rule will only run if your browser supports CSS grid.
+  
+  Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling!
+  */
+  
+  @supports (display: grid) {
+      .gallery {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+          grid-gap: 2rem;
+      }
+  
+      .gallery,
+      .gallery-item {
+          margin: 0;
+      }
+  }
+
+  
+/* Footer */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer{
+    color: #fff;
+    background-image: linear-gradient(90deg, rgba(39,27,111,1) 0%, rgba(87,25,45,1) 100%);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top:350px;
+    border-top-left-radius: 70px;
+    font-size: 0.8rem;
+    margin-top: -2%;
+  }
+
+
+  .main{
+    margin: 15px;
+    margin-top: -370px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(4, 1fr );
+  }
+  .row{
+   margin-top: 50px;
+  }
+
+  .footer-header{
+    font-size: 1.5rem;
+    margin-right: px;
+    margin-bottom: 50px;
+  }
+  
+  .footer-header h1{
+margin-left: 50px;
+  }
+  .office-des{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .office a{
+    text-decoration: none;
+    color: #98A8F8;
+    
+  }
+  .office a:hover{
+    color: #fff;
+  }
+  .num{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .link-des{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .link-des a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .link-des a:hover{
+    color: #FB2576;
+    transition: linear 0.3s;
+  }
+  
+  .btn-know{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    background-color: transparent;
+    border: 1px solid #98A8F8;
+    color: #98A8F8;
+    text-transform: uppercase;
+    border-radius:10px;
+    
+  }
+
+  .btn-know:hover{
+    color: white; 
+    background-color: #98A8F8;
+    transition: linear 0.3s;
+  }
+  .subcribe{
+    display: flex;
+  }
+  input[type=mail]{
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    font-size: 0.8rem;
+  }
+  .sub-icon{
+    margin: 7px;
+    margin-right: 15px;
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+  .ri-arrow-right-line{
+    margin-left: 0;
+    
+  }
+  
+  .icons a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 2%;
+  }
+
+  .social-icon{
+    position: relative;
+    top:2px;
+  }
+  .icons a:hover{
+    color: #fff;
+    background-color: #FB2576;
+    border-color: #FB2576;
+  }
+  .newsletter-des{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .copyright{
+    text-align: center;
+  }
+  
+  hr{
+    width: 90%;
+    margin: 2px auto;
+    opacity: 40%;
+    border: 0.01px solid white;
+    
+  }
+  
+  .copyright p{
+    padding: 20px;
+  }
+  
+  
+  
+/* Media queries (existing styles) */
+/* ... */
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    #menu-icon {
+        display: block;
+    }
+    #homename, #subforhomename {
+        text-align: center;
+    }
+    #homename h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #homename h1 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* footer style */
+@media (max-width:960px) {
+  footer{
+    width: 100%;
+    top: 120px;
+    
+  }
+  
+  .main{
+  margin: 50px;
+ display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+  
+  .logo{
+    grid-column: 1/3;
+  }
+  
+  .office{
+    grid-column: 3/5;
+  }
+  .link{
+    grid-column: 1/3;
+  }
+  
+    
+}
+
+@media (max-width:660px){
+  .main{
+    gap:10px;
+    margin: 0;
+
+  }
+  
+  .icons{
+    display: flex;
+  }
+  
+  
+  .row{
+    grid-column: 1/4;
+  }
+}
