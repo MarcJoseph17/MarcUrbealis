@@ -286,27 +286,19 @@ margin-left: 50px;
     /* ... */
 
 
-    @media screen and (max-width: 768px) {
-    nav {
-        display: none;
-    }
-    #menu-icon {
-        display: block;
-    }
-    #homename, #subforhomename {
-        text-align: center;
-    }
-    #homename h1 {
-        font-size: 30px;
-    }
-    }
-    @media screen and (max-width: 576px) {
-    #homename h1 {
-        font-size: 24px;
-    }
-    }
-    @media screen and (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
+/* Styles for large screens */
+@media (min-width: 992px) {
+  /* Add your CSS rules for larger screens here */
+}
+
+/* Styles for medium screens */
+@media (max-width: 991px) {
+  /* Add your CSS rules for medium-sized screens (e.g., tablets) here */
+  /* Adjust any specific styles for me.html on medium-sized screens */
+}
+
+/* Styles for small screens (mobile devices) */
+@media (max-width: 767px) {
+  /* Add your CSS rules for small screens (e.g., smartphones) here */
+  /* Adjust any specific styles for me.html on small screens */
 }

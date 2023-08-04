@@ -544,47 +544,27 @@ margin-left: 50px;
 /* ... */
 
 
-@media screen and (max-width: 768px) {
-    nav {
-        display: none;
-    }
-    #menu-icon {
-        display: block;
-    }
-    #homename, #subforhomename {
-        text-align: center;
-    }
-    #homename h1 {
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 576px) {
-    #homename h1 {
-        font-size: 24px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
+/* Styles for large screens */
+@media (min-width: 992px) {
+  /* Add your CSS rules for larger screens here */
 }
 
-/* Mobile styles */
-.element {
-  /* Your mobile styles here */
-}
-
-/* Tablet styles */
-@media (min-width: 768px) {
-  .element {
-    /* Your tablet styles here */
+/* Styles for medium screens */
+@media (max-width: 991px) {
+  /* Add your CSS rules for medium-sized screens (e.g., tablets) here */
+  .heading {
+    font-size: 28px;
+    margin-left: 25%;
   }
 }
 
-/* Desktop styles */
-@media (min-width: 1024px) {
-  .element {
-    /* Your desktop styles here */
+/* Styles for small screens (mobile devices) */
+@media (max-width: 767px) {
+  /* Add your CSS rules for small screens (e.g., smartphones) here */
+  .heading {
+    font-size: 24px;
+    margin-left: 10%;
   }
-}
 
+  /* Add any other specific rules for small screens on index.html and services.html */
+}
