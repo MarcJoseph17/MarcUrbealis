@@ -60,16 +60,16 @@ a {
   }
   
   body {
-      min-height: 100vh;
+      min-height: 300vh;
       background-color: #070606;
       color: #fefcfc;
   }
   
   .container1 {
       max-width: 80rem;
-      max-height: 90rem;
+      max-height: 110rem;
       margin: 0 auto;
-      padding: 0 2rem 2rem;
+      padding: 0 1rem 1rem;
   }
   
   h2 {
@@ -83,7 +83,7 @@ a {
       margin: 0 auto;
       padding: 0 2rem 2rem;
       margin-top: 450px;
-      margin-bottom: 150px;
+      margin-bottom: 100px;
   }
   
   .heading {
@@ -94,7 +94,6 @@ a {
     font-size: 40px;
     color: #f1f3f7;
     text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-    text-decoration: underline; /* Add this line to underline the text */
     text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
   }
   
@@ -163,7 +162,7 @@ a {
       .gallery {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-          grid-gap: 2rem;
+          grid-gap: 1rem;
       }
   
       .gallery,
@@ -191,7 +190,7 @@ a {
     top:350px;
     border-top-left-radius: 70px;
     font-size: 0.8rem;
-    margin-top: -2%;
+    margin-top: 950px;
   }
 
 
@@ -215,7 +214,7 @@ a {
   }
   
   .footer-header h1{
-margin-left: 50px;
+    margin-left: 50px;
   }
   .office-des{
     display: flex;
@@ -337,19 +336,4 @@ margin-left: 50px;
   
   
   
-/* Styles for large screens */
-@media (min-width: 992px) {
-  /* Add your CSS rules for larger screens here */
-}
-
-/* Styles for medium screens */
-@media (max-width: 991px) {
-  /* Add your CSS rules for medium-sized screens (e.g., tablets) here */
-  /* Adjust any specific styles for the gallery on medium-sized screens */
-}
-
-/* Styles for small screens (mobile devices) */
-@media (max-width: 767px) {
-  /* Add your CSS rules for small screens (e.g., smartphones) here */
-  /* Adjust any specific styles for the gallery on small screens */
-}
+/* Media queries (existing styles) */

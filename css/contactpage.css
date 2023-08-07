@@ -35,7 +35,6 @@ body {
     margin: 0;
     padding: 0;
   }
-  
   main {
     color: white;
     font-size:smaller;
@@ -43,7 +42,6 @@ body {
     margin-top: 3%;
     max-width: 90%;
   }
-
 /* Remove the underline for the menu links */
 #menu li a {
     text-decoration: none;
@@ -62,15 +60,12 @@ a {
     color: #f4f2f2;
     font-weight: bold;
 }
-
-
 * { 
     box-sizing: border-box; 
   }
-  /* Centering items, font + background */
- 
 
   /* Label */
+
   label {
     display: block;
     text-align: start;
