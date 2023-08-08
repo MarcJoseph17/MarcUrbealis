@@ -1,41 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,900&family=Montserrat:wght@200;300;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-/* START about page styles */
 
+/* home section styling */
 .logo h1 {
-    padding-top: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Use Lobster font for the name */
-    font-size: 40px; /* Adjust the font size as needed */
-    color: #f1f3f7; /* Set the color for the name */
-    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-    margin-left: 150px; /* Remove any margin to avoid extra spacing */
-}
-header {
-  color: #f0efef;
-  background-color: rgba(211, 211, 211, 0.049);
-  padding-bottom: 100px;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: #f1f3f7;
+  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+  margin-left: 5%;
 }
 
-main {
-  color: #f0efef;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: #050000;
-}
-
-/* Update the following styles for the navbar class */
 .navbar {
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
   background-color: transparent;
-  padding-bottom: 0;
-  overflow: hidden;
+  padding-bottom: 40px;
 }
 
 #menu {
@@ -43,34 +26,105 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap; /* Allow menu items to wrap to new lines */
-  justify-content: center;
 }
 
-/* ... (Your existing code from here) ... */
 
+header {
+  color: #ffffff;
+  background-color: rgba(240, 237, 237, 0.06);
+  padding-bottom: 5rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  background-color: black;
+  color: #f1f3f7;
+  font-family: 'Poppins', sans-serif;
+
+}
 
 /* Remove the underline for the menu links */
 #menu li a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 li {
-    margin-left: 20px;
+  margin-left: 1rem;
 }
 a {
-    text-decoration: none;
-    color: #f4f2f2;
-    font-weight: bold;
+  text-decoration: none;
+  color: #f4f2f2;
+  font-weight: bold;
 }
 
-.circle{
+
+.image-section {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on small screens */
+  align-items: center;
+  text-align:center; /* Center the text content */
+}
+
+.image-wrapper {
+  position: relative;
+  margin: 0; /* Remove the left margin */
+  overflow: hidden;
+}
+
+.abstract-bg {
+  position: absolute;
+  top: -15px;
+  left: 10%; /* Adjust the positioning to be relative to the screen width */
+  right: 10%; /* Adjust the positioning to be relative to the screen width */
+  bottom: -20px;
+  background: url("../images/Abstract-form-of-fluid.png") center center no-repeat;
+  background-size: 30%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.image-wrapper img {
+  width: 20%; /* Make the image responsive to screen width */
+  height: auto; /* Maintain image aspect ratio */
+  margin: 20px 0; /* Adjust margins for spacing */
+}
+
+.image-caption h1{
+  font-size: large;
+  margin: 20px; /* Add some spacing around the caption */
+}
+
+.image-caption #mynamehomepage {
+  color: #ffffff;
+  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+  margin: 10px 0;
+  font-size: x-large;
+}
+
+.image-caption p {
+  color: #f0efef;
+  font-size: large; /* Adjust the font size */
+  margin: 0;
+  text-align: center;
+}
+
+.typing {
+  color: rgb(194, 157, 254);
+  font-size: large;
+
+}
+
+
+
+
+  /* home section styling */
+  .circle{
     position:absolute;
     bottom:0;
     width:20px;
@@ -114,60 +168,6 @@ a {
   }
   /* home section styling */
 
-
-.image-section {
-    margin-right: px;
-    display: flex;
-    align-items: center;
-}
-
-.image-wrapper {
-    position: relative;
-    margin-left: -100px; /* Add spacing between the text and the image */
-    overflow: hidden;
-}
-
-.abstract-bg {
-    position: absolute;
-    top: -15px; /* Adjust the positioning to move the abstract background as needed */
-    left: 120px; /* Adjust the positioning to move the abstract background as needed */
-    right: -20px; /* Adjust the positioning to move the abstract background as needed */
-    bottom: -80px; /* Adjust the positioning to move the abstract background as needed */
-    background: url("../images/Abstract-form-of-fluid.png") center center no-repeat;
-    background-size: contain;
-    opacity: 0.7; /* Adjust the opacity as needed */
-    z-index: -1;
-}
-
-.image-wrapper img {
-    width: 450px; /* Make the image fill the image wrapper */
-    height: 500px; /* Make the image fill the image wrapper */
-    margin-left: 150px;
-    margin-top: 80px;
-}
-
-.image-caption {
-    flex: 0%; /* Allow the text to take up the remaining space */
-    margin-left: 100px;
-}
-
-.image-caption #mynamehomepage {
-    color: #ffffff;
-    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-    font: size ; /* Adjust the font size of the caption title as needed */
-    margin: 0 0 10px;
-}
-
-.image-caption p {
-    color: #f0efef;
-    font-size:small; /* Adjust the font size of the descriptive text as needed */
-    margin: 0;
-}
-.typing {
-    color: rgb(194, 157, 254);
-}
-
-
 /* Services */
 
 
@@ -176,6 +176,7 @@ a {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-size: small;
   }
   
   .container {
@@ -247,52 +248,58 @@ a {
   }
   
 
-/* Skills */
-* {
-    box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-#skills {
-    background-color: rgba(211, 211, 211, 0.049);
-    padding-bottom: 150px;
-}
-    #skillsheader {
-        color: #ffffff;
-        font-size: xx-large;
-        text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-        margin-left: 650px;
-        padding-top: 150px;
-        padding-bottom: 50px;
-    }
-    
-    .wrapper {
-        padding-top: 20px;
-        margin-bottom: 100px;
-    display: grid;
-     margin-left: 420px;
-      width: 920px;
-      max-width: 100%;
-    }
-    .wrapper h1 {
-        margin-bottom: -20px;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .progress-bar {
 
-      height: 30px;
-      width: 100%;
-      background-color: #BFADA3;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
-      position: relative;
-    }
-    
-    * + .progress-bar {
-      margin-top: 1.5rem;
-      
-    }
+  /* Skills */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#skills {
+  background-color: rgba(211, 211, 211, 0.049);
+  padding-bottom: 100px; /* Adjust padding for smaller screens */
+}
+
+#skillsheader {
+  color: #ffffff;
+  font-size: large; /* Adjust font size for smaller screens */
+  text-shadow: 2px 2px 3px hsl(233, 88%, 65%), -2px -2px 3px hsl(277, 85%, 41%);
+  text-align: center;
+  margin: 50px 0; /* Adjust margin for smaller screens */
+  padding: 20px 0; /* Adjust padding for smaller screens */
+}
+
+.container {
+  width: 90%; /* Adjust the width to your preference */
+  margin: 0 auto; /* Center the container */
+}
+
+.wrapper {
+  padding-top: 10px; /* Adjust padding for smaller screens */
+  margin-bottom: 50px; /* Adjust margin for smaller screens */
+  display: flex; /* Change to flex to stack the progress bars */
+  flex-direction: column; /* Stack the progress bars vertically */
+  align-items: center; /* Center the progress bars horizontally */
+}
+
+.wrapper h1 {
+  font-size: medium; /* Adjust font size for smaller screens */
+  text-align: center;
+  margin-bottom: 10px; /* Adjust margin for smaller screens */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.progress-bar {
+  height: 20px; /* Adjust height for smaller screens */
+  width: 60%;
+  background-color: #BFADA3;
+  border-radius: 10px; /* Adjust border radius for smaller screens */
+  overflow: hidden;
+  box-shadow: 1px 0 5px inset rgba(0, 0, 0, 0.2); /* Adjust box shadow for smaller screens */
+  position: relative;
+  margin-top: 10px; /* Adjust margin for smaller screens */
+}
     
     .bar {
       width: 0;
@@ -338,242 +345,116 @@ a {
     }
 
     
-
-
 /* Footer */
-
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-/* Footer */
-footer {
-  color: #f0efef;
-  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
-  position: relative;
-  width: 100%;
-  padding: 10px 0;
-  font-size: 0.7rem;
-  overflow: hidden;
-}
-
-@media (max-width:960px) {
-  footer{
-    width: 100%;
-    top: 120px;
-  }
-  
-  .main{
-  margin: 50px;
- display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-}
-  
-  .logo{
-    grid-column: 1/3;
-  }
-  
-  .office{
-    grid-column: 3/5;
-  }
-  .link{
-    grid-column: 1/3;
-  }
-  
+    footer {
+      color: #f0efef;
+      background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+      position: relative;
+      width: 100%;
+      padding: 5px 0;
+      font-size: 0.6rem;
+      overflow: hidden;
+      margin-top: 180px;
+    }
     
-}
-
-@media (max-width:660px){
-  .main{
-    gap:10px;
-    margin: 0;
-
-  }
+    /* Main footer container */
+    .main {
+      margin: 0;
+      padding: 0 10px;
+      display: grid;
+      gap: 5px;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    /* Footer header */
+    .footer-header {
+      font-size: 0.8rem;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    
+    /* Office section, Link section */
+    .office-des,
+    .link-des {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      max-width: 150px;
+    }
+    
+    .office a,
+    .link-des a {
+      text-decoration: none;
+      color: #98a8f8;
+      font-size: 0.6rem;
+    }
+    
+    .num {
+      font-size: 0.6rem;
+    }
+    
+    /* "Know More" button */
+    .btn-know {
+      text-decoration: none;
+      background-color: #fff;
+      padding: 2px 4px;
+      border: 1px solid #98a8f8;
+      color: #98a8f8;
+      text-transform: uppercase;
+      border-radius: 3px;
+      font-size: 0.6rem;
+    }
+    
+    /* Newsletter section */
+    .newsletter-des {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      max-width: 150px;
+    }
+    
+    .newsletter-input {
+      width: 100%;
+      padding: 2px;
+    }
+    
+    /* Social icons */
+    .icons a {
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;
+      justify-content: center;
+      padding: 1px;
+      border-radius: 50%;
+      align-items: center;
+      font-size: 0.6rem;
+      margin: 1%;
+    }
+    
+    .icons {
+      margin-top: -20px;
+    
+    }
+    
+    /* Copyright */
+    hr {
+      width: 80%;
+      margin: 3px auto;
+      opacity: 40%;
+      border: 0.01px solid white;
+    }
+    
+    /* Copyright text */
+    .copyright p {
+      margin-left: 80px;
+      font-size: 0.6rem;
+    }
+    
   
-  .icons{
-    display: flex;
-  }
-  
-  
-  .row{
-    grid-column: 1/4;
-  }
+@media screen and (max-width: 768px) {
+  /* CSS rules for screens up to 768px */
 }
 
-.main {
-  margin: 0;
-  padding: 0 15px;
-  display: flex;
-  flex-direction: column; /* Change to column layout for small screens */
-  align-items: center; /* Center align items horizontally */
-  gap: 10px;
-}
-
-.row{
- margin-top: 50px;
-}
-
-.footer-header{
-  font-size: 1.5rem;
-  margin-right: px;
-  margin-bottom: 50px;
-}
-
-.footer-header h1{
-margin-left: 50px;
-}
-.office-des{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.office a{
-  text-decoration: none;
-  color: #98A8F8;
-  
-}
-.office a:hover{
-  color: #fff;
-}
-.num{
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.link-des{
-  display: flex;
-  flex-direction: column;
-  gap:10px;
-}
-.link-des a{
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.link-des a:hover{
-  color: #FB2576;
-  transition: linear 0.3s;
-}
-
-.btn-know{
-  text-decoration: none;
-  background-color: #fff;
-  padding: 10px;
-  position: relative;
-  top: 30px;
-  background-color: transparent;
-  border: 1px solid #98A8F8;
-  color: #98A8F8;
-  text-transform: uppercase;
-  border-radius:10px;
-  
-}
-
-.btn-know:hover{
-  color: white; 
-  background-color: #98A8F8;
-  transition: linear 0.3s;
-}
-.subcribe{
-  display: flex;
-}
-input[type=mail]{
-  border: none;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #fff;
-  background-color: transparent;
-  font-size: 0.8rem;
-}
-.sub-icon{
-  margin: 7px;
-  margin-right: 15px;
-  margin-left: 0;
-  font-size: 1.5rem;
-}
-.ri-arrow-right-line{
-  margin-left: 0;
-  
-}
-
-.icons a{
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 50%;
-  align-items: center;
-  font-size: 1.1rem;
-  margin: 2%;
-}
-
-.social-icon{
-  position: relative;
-  top:2px;
-}
-.icons a:hover{
-  color: #fff;
-  background-color: #FB2576;
-  border-color: #FB2576;
-}
-.newsletter-des {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%; /* Occupy full width */
-  max-width: 300px; /* Limit maximum width for larger screens */
-  align-items: center; /* Center align items horizontally */
-}
-
-.copyright{
-  text-align: center;
-}
-
-hr{
-  width: 90%;
-  margin: 2px auto;
-  opacity: 40%;
-  border: 0.01px solid white;
-  
-}
-
-.copyright p{
-  padding: 20px;
-}
-
-  
-  
-/* Media queries (existing styles) */
-/* ... */
-
-
-/* Styles for large screens */
-@media (min-width: 992px) {
-  /* Add your CSS rules for larger screens here */
-}
-
-/* Styles for medium screens */
-@media (max-width: 991px) {
-  /* Add your CSS rules for medium-sized screens (e.g., tablets) here */
-  .heading {
-    font-size: 28px;
-    margin-left: 25%;
-  }
-}
-
-/* Styles for small screens (mobile devices) */
-@media (max-width: 767px) {
-  /* Add your CSS rules for small screens (e.g., smartphones) here */
-  .heading {
-    font-size: 24px;
-    margin-left: 10%;
-  }
-
-  /* Add any other specific rules for small screens on index.html and services.html */
+@media screen and (max-width: 480px) {
+  /* CSS rules for screens up to 480px */
 }

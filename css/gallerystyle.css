@@ -147,75 +147,72 @@ h2 {
 
 /* Footer */
 footer {
+  color: #f0efef;
   background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
   position: relative;
   width: 100%;
-  padding: 10px 0;
-  font-size: 0.7rem;
-  overflow: hidden; /* Ensure no content overflows */
+  padding: 5px 0;
+  font-size: 0.6rem;
+  overflow: hidden;
 }
 
 /* Main footer container */
 .main {
-  margin: 0; /* Remove the margin to ensure full width */
-  padding: 0 15px; /* Add padding for responsive spacing */
+  margin: 0;
+  padding: 0 10px;
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 /* Footer header */
 .footer-header {
-  font-size: 1rem;
-}
-
-/* Office section */
-.office-des {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.office a {
-  text-decoration: none;
-  color: #98a8f8;
   font-size: 0.8rem;
 }
 
-.num {
-  font-size: 0.8rem;
-}
-
-/* Link section */
+/* Office section, Link section */
+.office-des,
 .link-des {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
+  max-width: 150px;
 }
 
+.office a,
 .link-des a {
-  color: #fff;
   text-decoration: none;
-  font-size: 0.7rem;
+  color: #98a8f8;
+  font-size: 0.6rem;
+}
+
+.num {
+  font-size: 0.6rem;
 }
 
 /* "Know More" button */
 .btn-know {
   text-decoration: none;
   background-color: #fff;
-  padding: 5px 10px;
+  padding: 2px 4px;
   border: 1px solid #98a8f8;
   color: #98a8f8;
   text-transform: uppercase;
-  border-radius: 5px;
-  font-size: 0.7rem;
+  border-radius: 3px;
+  font-size: 0.6rem;
 }
 
 /* Newsletter section */
 .newsletter-des {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 3px;
+  max-width: 150px;
+}
+
+.newsletter-input {
+  width: 100%;
+  padding: 2px;
 }
 
 /* Social icons */
@@ -224,25 +221,28 @@ footer {
   color: #fff;
   border: 1px solid #fff;
   justify-content: center;
-  padding: 5px;
+  padding: 1px;
   border-radius: 50%;
   align-items: center;
-  font-size: 0.7rem;
-  margin: 2%;
+  font-size: 0.6rem;
+  margin: 1%;
+}
+
+.icons {
+  margin-top: -20px;
+
 }
 
 /* Copyright */
 hr {
-  width: 90%;
-  margin: 5px auto;
+  width: 80%;
+  margin: 3px auto;
   opacity: 40%;
   border: 0.01px solid white;
-  
 }
 
 /* Copyright text */
 .copyright p {
-  margin-left: 120px;
-  font-size: 0.7rem;
-  
+  margin-left: 80px;
+  font-size: 0.6rem;
 }
