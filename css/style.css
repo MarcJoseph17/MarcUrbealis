@@ -30,18 +30,21 @@ body {
 
 /* Update the following styles for the navbar class */
 .navbar {
-    font-size: 16px;
-    display: flex;
-    justify-content: center; /* Center the navbar horizontally */
-    background-color: transparent; /* Remove the background color */
-    padding-bottom: 0px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding-bottom: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 #menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%; /* Take up the entire width of the screen */
+  justify-content: space-around; /* Distribute menu items evenly */
 }
 
 /* Remove the underline for the menu links */
