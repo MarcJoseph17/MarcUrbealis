@@ -64,7 +64,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: -150px;
-  margin-bottom: -120px;
+  margin-bottom: -100px;
 }
 /* Adjust the size and position of the abstract background */
 .abstract-bgabout {
@@ -97,9 +97,7 @@ a {
 }
 
 .aboutimage-wrapper img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+  max-width: 550px;
   margin-top: 150px;
   margin-bottom: -160px;
   margin-left: 40px;
