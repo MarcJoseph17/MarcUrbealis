@@ -63,7 +63,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -150px;
+  margin-top: -50px;
   margin-bottom: -100px;
 }
 /* Adjust the size and position of the abstract background */
@@ -73,7 +73,7 @@ a {
   left: 9%;
   right: 80px;
   bottom: 0px;
-  background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
+  background: url("../images/Lovepik_com-401514909-blue-gradient-tecxhnology-touches-the-circle-from-big-to-small.png") center center no-repeat;
   background-size: contain;
   width: 80%; /* Make it responsive */
   max-width: 600px; /* Set a maximum width */
