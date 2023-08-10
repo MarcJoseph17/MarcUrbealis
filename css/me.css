@@ -63,6 +63,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -150px;
+  margin-bottom: -120px;
 }
 /* Adjust the size and position of the abstract background */
 .abstract-bgabout {
@@ -99,7 +101,7 @@ a {
   max-width: 100%;
   height: auto;
   margin-top: 150px;
-  margin-bottom: -200px;
+  margin-bottom: -160px;
   margin-left: 40px;
   position: relative;
   z-index: 1;
