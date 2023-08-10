@@ -64,34 +64,49 @@ a {
   flex-direction: column;
   align-items: center;
 }
-.aboutimage-wrapper {
-    position: relative;
-    margin-left: -80px; /* Add spacing between the text and the image */
-    overflow: hidden;
-}
+/* Adjust the size and position of the abstract background */
 .abstract-bgabout {
-    position: absolute;
-    top: -15px; /* Adjust the positioning to move the abstract background as needed */
-    left: 80px; /* Adjust the positioning to move the abstract background as needed */
-    right: -20px; /* Adjust the positioning to move the abstract background as needed */
-    bottom: -80px; /* Adjust the positioning to move the abstract background as needed */
-    background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
-    background-size: contain;
-    width: 600px;
-    height: 800px;
-    margin-left: 60px;
-    margin-top: 80px;
-    opacity: 0.7; /* Adjust the opacity as needed */
-    z-index: -1;
+  position: absolute;
+  top: 140px;
+  left: 9%;
+  right: 80px;
+  bottom: 0px;
+  background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
+  background-size: contain;
+  width: 80%; /* Make it responsive */
+  max-width: 600px; /* Set a maximum width */
+  height: auto; /* Make it responsive */
+  opacity: 0.7;
+  z-index: -1;
 }
+
+/* Adjust the size and position of the image wrapper */
+.aboutimage-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  z-index: 0;
+}
+
 .aboutimage-wrapper img {
-    width: 780px; /* Make the image fill the image wrapper */
-    height: 1000px; /* Make the image fill the image wrapper */
-    margin-left: 80px;
-    margin-top: 0px;
-    margin-bottom: -420px;
-    
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: -200px;
+  margin-left: 40px;
+  position: relative;
+  z-index: 1;
 }
+
+
+
 .aboutcontent-section {
   display: flex;
   flex-direction: column;
