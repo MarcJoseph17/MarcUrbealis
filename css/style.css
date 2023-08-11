@@ -83,13 +83,13 @@ a {
   right: 10%; /* Adjust the positioning to be relative to the screen width */
   bottom: -20px;
   background: url("../images/Abstract-form-of-fluid.png") center center no-repeat;
-  background-size: 30%;
+  background-size: 68%;
   opacity: 0.7;
   z-index: -1;
 }
 
 .image-wrapper img {
-  width: 20%; /* Make the image responsive to screen width */
+  width: 55%; /* Make the image responsive to screen width */
   height: auto; /* Maintain image aspect ratio */
   margin: 20px 0; /* Adjust margins for spacing */
 }
@@ -349,7 +349,7 @@ a {
       position: relative;
       width: 100%;
       padding: 5px 0;
-      font-size: 0.6rem;
+    
       overflow: hidden;
       margin-top: 180px;
     }
@@ -365,7 +365,7 @@ a {
     
     /* Footer header */
     .footer-header {
-      font-size: 0.8rem;
+      font-size: 1rem;
       margin-bottom: 20px;
       margin-top: 20px;
     }
@@ -375,15 +375,19 @@ a {
     .link-des {
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 5px;
       max-width: 150px;
+    }
+
+    .office a {
+      margin-top: 20px;
     }
     
     .office a,
     .link-des a {
       text-decoration: none;
       color: #98a8f8;
-      font-size: 0.6rem;
+      font-size: 0.8rem;
     }
     
     .num {
@@ -399,7 +403,7 @@ a {
       color: #98a8f8;
       text-transform: uppercase;
       border-radius: 3px;
-      font-size: 0.6rem;
+      font-size: 0.8rem;
     }
     
     /* Newsletter section */
@@ -416,23 +420,17 @@ a {
     }
     
     /* Social icons */
-    .icons a {
-      text-decoration: none;
-      color: #fff;
-      border: 1px solid #fff;
-      justify-content: center;
-      padding: 1px;
-      border-radius: 50%;
-      align-items: center;
-      font-size: 0.6rem;
-      margin: 1%;
-    }
-    
+ 
     .icons {
-      margin-top: -20px;
-    
+      margin-top: -15px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 10px;
     }
-    
+    .icons i {
+      font-size: 20px; /* Adjust the icon size as needed */
+      color: #ffffff;
+    }
     /* Copyright */
     hr {
       width: 80%;

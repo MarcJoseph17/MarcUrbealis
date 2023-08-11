@@ -222,21 +222,15 @@ footer {
 }
 
 /* Social icons */
-.icons a {
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  justify-content: center;
-  padding: 1px;
-  border-radius: 50%;
-  align-items: center;
-  font-size: 0.6rem;
-  margin: 1%;
-}
-
 .icons {
-  margin-top: -20px;
-
+  margin-top: -15px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.icons i {
+  font-size: 20px; /* Adjust the icon size as needed */
+  color: #ffffff;
 }
 
 /* Copyright */

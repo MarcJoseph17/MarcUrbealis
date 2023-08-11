@@ -144,9 +144,8 @@ footer {
   position: relative;
   width: 100%;
   padding: 5px 0;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   overflow: hidden;
-  margin-top: 200px;
 }
 
 /* Main footer container */
@@ -161,12 +160,6 @@ footer {
 /* Footer header */
 .footer-header {
   font-size: 0.8rem;
-}
-
-.footer-header h1{
-  font-size: 3rem;
-  margin-left: 0px;
-  margin-top: -28px;
 }
 
 /* Office section, Link section */
@@ -215,21 +208,16 @@ footer {
 }
 
 /* Social icons */
-.icons a {
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  justify-content: center;
-  padding: 1px;
-  border-radius: 50%;
-  align-items: center;
-  font-size: 0.6rem;
-  margin: 1%;
-}
 
 .icons {
-  margin-top: -20px;
-
+  margin-top: -10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.icons i {
+  font-size: 20px; /* Adjust the icon size as needed */
+  color: #ffffff;
 }
 
 /* Copyright */
@@ -242,6 +230,7 @@ hr {
 
 /* Copyright text */
 .copyright p {
-  margin-left: 95px;
+  margin-left: 80px;
   font-size: 0.6rem;
 }
+
