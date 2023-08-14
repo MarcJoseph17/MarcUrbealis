@@ -25,8 +25,9 @@ header {
 }
 
 .logo {
-  text-align: center;
+  text-align: left; /* Align logo to the left */
   margin-bottom: 1rem;
+  margin-left: 5%; /* Add margin to the left */
 }
 
 .logo h1 {
@@ -98,15 +99,12 @@ main {
 
 .abstract-bgabout {
   position: absolute;
-  top: 50px;
-  left: 30px;
-  right: -0px;
-  bottom: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
   background-size: contain;
-  width: 80%; /* Make it responsive */
-  max-width: 600px; /* Set a maximum width */
-  height: auto; /* Make it responsive */
   opacity: 0.7;
   z-index: -1;
 }
@@ -131,10 +129,12 @@ main {
 }
 
 #mystorytitle {
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
+  color: #f1f3f7;
+  text-decoration: underline;
   text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
 }
 
@@ -149,7 +149,6 @@ footer {
   overflow: hidden;
 }
 
-/* Main footer container */
 .main {
   margin: 0;
   padding: 0 10px;
@@ -157,6 +156,11 @@ footer {
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
+/* Add styling for other footer sections as needed */
+
+/*
+
 
 /* Footer header */
 .footer-header {
