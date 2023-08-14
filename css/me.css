@@ -2,24 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-  /* home section styling */
-/* home section styling */
+/* Reset CSS */
+/* Include your CSS reset here if needed */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: #f1f3f7;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Header */
+header {
+  position: relative;
+  color: #ffffff;
+  background-color: rgba(240, 237, 237, 0.06);
+  padding: 2rem 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .logo h1 {
-  padding-top: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
   color: #f1f3f7;
   text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-  margin-left: 5%;
 }
 
-/* Update the following styles for the navbar class */
+/* Navigation */
 .navbar {
-  font-size: 0.8rem;
   display: flex;
   justify-content: center;
   background-color: transparent;
-  padding-bottom: 0;
+  padding: 0;
 }
 
 #menu {
@@ -29,49 +50,57 @@
   display: flex;
 }
 
-header {
-  color: #ffffff;
-  background-color: rgba(240, 237, 237, 0.06);
-  padding-bottom: 5rem;
-  font-family: 'Poppins', sans-serif;
-}
-body {
-  background-color: black;
-  color: #f1f3f7;
-  font-family: 'Poppins', sans-serif;
-}
-
-/* Remove the underline for the menu links */
-#menu li a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-li {
+#menu li {
   margin-left: 1rem;
 }
-a {
+
+#menu li a {
   text-decoration: none;
   color: #f4f2f2;
   font-weight: bold;
 }
-.aboutimage-section {
+
+/* Main Content */
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.aboutimage-section {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
   margin-top: -80px;
   margin-bottom: -180px;
 }
-/* Adjust the size and position of the abstract background */
+
+.aboutimage-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  z-index: 0;
+}
+
+.aboutimage-wrapper img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: -200px;
+  position: relative;
+  z-index: 1;
+}
+
 .abstract-bgabout {
   position: absolute;
-  top: 140px;
-  left: 9%;
-  right: 80px;
+  top: 50px;
+  left: 30px;
+  right: -0px;
   bottom: 0px;
   background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
   background-size: contain;
@@ -82,31 +111,6 @@ a {
   z-index: -1;
 }
 
-/* Adjust the size and position of the image wrapper */
-.aboutimage-wrapper {
-  position: relative;
-  width: 80%;
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  text-align: center;
-  z-index: 0;
-}
-
-.aboutimage-wrapper img {
-  max-width: 550px;
-  margin-top: 150px;
-  margin-bottom: -190px;
-  margin-left: 40px;
-  position: relative;
-  z-index: 1;
-}
-
-
-
 .aboutcontent-section {
   display: flex;
   flex-direction: column;
@@ -115,27 +119,24 @@ a {
   text-align: center;
 }
 
+.about-article {
+  margin-top: 20px;
+}
+
 .about-article2 {
-  margin-top: 20px; /* Adjust spacing between articles */
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-  #mystorytitle {
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: #f1f3f7;
-    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-    text-decoration: underline; /* Add this line to underline the text */
-    text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-  }
+#mystorytitle {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+}
 
 /* Footer */
 footer {
@@ -233,4 +234,3 @@ hr {
   margin-left: 80px;
   font-size: 0.6rem;
 }
-
