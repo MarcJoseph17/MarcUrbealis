@@ -3,15 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 /* home section styling */
-.logo h1 {
-  padding-top: 1rem;
-  margin-bottom: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  color: #f1f3f7;
-  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-  margin-left: 5%;
-}
+
 
 .navbar {
   font-size: 0.8rem;
@@ -19,6 +11,10 @@
   justify-content: center;
   background-color: transparent;
   padding-bottom: 40px;
+  background-color: rgba(240, 237, 237, 0.06);
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  margin-bottom: 30px;
 }
 
 #menu {
@@ -31,8 +27,6 @@
 
 header {
   color: #ffffff;
-  background-color: rgba(240, 237, 237, 0.06);
-  padding-bottom: 5rem;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -83,13 +77,13 @@ a {
   right: 10%; /* Adjust the positioning to be relative to the screen width */
   bottom: -20px;
   background: url("../images/Abstract-form-of-fluid.png") center center no-repeat;
-  background-size: 68%;
+  background-size: 40%;
   opacity: 0.7;
   z-index: -1;
 }
 
 .image-wrapper img {
-  width: 55%; /* Make the image responsive to screen width */
+  width: 20%; /* Make the image responsive to screen width */
   height: auto; /* Maintain image aspect ratio */
   margin: 20px 0; /* Adjust margins for spacing */
 }

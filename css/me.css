@@ -5,43 +5,17 @@
 /* Reset CSS */
 /* Include your CSS reset here if needed */
 
-/* Global Styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: black;
-  color: #f1f3f7;
-  overflow-x: hidden; /* Prevent horizontal scroll */
-}
 
-/* Header */
-header {
-  position: relative;
-  color: #ffffff;
-  background-color: rgba(240, 237, 237, 0.06);
-  padding: 2rem 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-.logo {
-  text-align: left; /* Align logo to the left */
-  margin-bottom: 1rem;
-  margin-left: 5%; /* Add margin to the left */
-}
-
-.logo h1 {
-  font-size: 2rem;
-  color: #f1f3f7;
-  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-}
-
-/* Navigation */
 .navbar {
+  font-size: 0.8rem;
   display: flex;
   justify-content: center;
   background-color: transparent;
-  padding: 0;
+  padding-bottom: 40px;
+  background-color: rgba(240, 237, 237, 0.06);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 30px;
 }
 
 #menu {
@@ -49,6 +23,38 @@ header {
   padding: 0;
   margin: 0;
   display: flex;
+}
+
+
+header {
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #f1f3f7;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* Remove the underline for the menu links */
+#menu li a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  margin-left: 1rem;
+}
+a {
+  text-decoration: none;
+  color: #f4f2f2;
+  font-weight: bold;
 }
 
 #menu li {
@@ -62,6 +68,9 @@ header {
 }
 
 /* Main Content */
+/* ... (previous CSS code) ... */
+
+/* Main Content */
 main {
   display: flex;
   flex-direction: column;
@@ -72,27 +81,29 @@ main {
 
 .aboutimage-section {
   position: relative;
-  width: 100%;
-  max-width: 800px;
+  max-width: 400px;
   margin-top: -80px;
   margin-bottom: -180px;
 }
 
 .aboutimage-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem;
   text-align: center;
   z-index: 0;
 }
 
 .aboutimage-wrapper img {
-  width: 100%;
-  max-width: 800px;
-  margin-top: 20px;
-  margin-bottom: -200px;
+  max-width: 450px;
+  margin-top: -0px;
+  margin-bottom: -190px;
+  margin-left: 40px;
   position: relative;
   z-index: 1;
 }
@@ -117,6 +128,8 @@ main {
   text-align: center;
 }
 
+/* ... (remaining CSS code) ... */
+
 .about-article {
   margin-top: 20px;
 }
@@ -134,7 +147,6 @@ main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   color: #f1f3f7;
-  text-decoration: underline;
   text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
 }
 

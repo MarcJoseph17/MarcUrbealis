@@ -3,43 +3,59 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
   /* home section styling */
-/* home section styling */
-.logo h1 {
-  padding-top: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  color: #f1f3f7;
-  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-  margin-left: 5%;
-}
 
-/* Update the following styles for the navbar class */
+  
 .navbar {
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
   background-color: transparent;
-  padding-bottom: 0;
-}
-
-#menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-header {
-  color: #ffffff;
+  padding-bottom: 40px;
   background-color: rgba(240, 237, 237, 0.06);
-  padding-bottom: 5rem;
-  font-family: 'Poppins', sans-serif;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 30px;
 }
-body {
-  background-color: black;
-  color: #f1f3f7;
-  font-family: 'Poppins', sans-serif;
-}
+  
+  #menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  
+  header {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  body {
+    background-color: black;
+    color: #f1f3f7;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  /* Remove the underline for the menu links */
+  #menu li a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  li {
+    margin-left: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: #f4f2f2;
+    font-weight: bold;
+  }
 
 /* Remove the underline for the menu links */
 #menu li a {
