@@ -61,11 +61,12 @@ a {
   font-weight: bold;
 }
 
+/* Common styles for both mobile and desktop */
 .image-section {
   display: flex;
   flex-direction: column; /* Stack content vertically on small screens */
   align-items: center;
-  text-align:center; /* Center the text content */
+  text-align: center; /* Center the text content */
 }
 
 .image-wrapper {
@@ -475,4 +476,22 @@ a {
 
 @media screen and (max-width: 480px) {
   /* CSS rules for screens up to 480px */
+}
+
+/* Media queries for adjusting styles based on screen sizes */
+@media (max-width: 768px) {
+  .image-wrapper {
+    margin: 0; /* Reset margin for smaller screens */
+  }
+
+  .abstract-bg {
+    left: 0;
+    right: 0;
+    background-size: 60%; /* Adjust background size for smaller screens */
+  }
+
+  .image-wrapper img {
+    width: 60%; /* Adjust image width for smaller screens */
+    margin: 10px 0; /* Adjust margins for spacing */
+  }
 }
