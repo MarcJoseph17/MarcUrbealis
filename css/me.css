@@ -2,21 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-/* Reset CSS */
-/* Include your CSS reset here if needed */
+/* home section styling */
 
 
 .navbar {
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
-  background-color: transparent;
-  padding-bottom: 40px;
-  background-color: rgba(240, 237, 237, 0.06);
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  margin-bottom: 30px;
+  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+  padding: 2rem 0; /* Adjust top and bottom padding */
+  margin-bottom: 0; /* Remove margin bottom */
 }
+
+header {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: #f1f3f7;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  font-size: smaller;
+}
+
+/* Remove the underline for the menu links */
 
 #menu {
   list-style: none;
@@ -25,20 +40,6 @@
   display: flex;
 }
 
-
-header {
-color: #ffffff;
-font-family: 'Poppins', sans-serif;
-}
-
-body {
-  background-color: black;
-  color: #f1f3f7;
-  font-family: 'Poppins', sans-serif;
-
-}
-
-/* Remove the underline for the menu links */
 #menu li a {
   text-decoration: none;
 }
@@ -57,53 +58,32 @@ a {
   font-weight: bold;
 }
 
-#menu li {
-  margin-left: 1rem;
-}
-
-#menu li a {
-  text-decoration: none;
-  color: #f4f2f2;
-  font-weight: bold;
-}
-
-/* Main Content */
-/* ... (previous CSS code) ... */
-
-/* Main Content */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  text-align: center;
-}
-
+/* Adjust the size and position of the image wrapper */
 .aboutimage-section {
   position: relative;
-  max-width: 400px;
-  margin-top: -80px;
+  width: 90%;
+  margin-top: -35px;
   margin-bottom: -180px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Hide potential overflow */
 }
 
 .aboutimage-wrapper {
+  max-width: 500px;
   position: relative;
-  width: 80%;
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
+  margin-left: 170px; /* Center horizontally */
+  margin-bottom: -40px;
   text-align: center;
   z-index: 0;
 }
 
 .aboutimage-wrapper img {
-  max-width: 450px;
-  margin-top: -0px;
-  margin-bottom: -190px;
-  margin-left: 40px;
+  max-width: 350px; /* Adjust the max-width as needed */
+  margin-top: 110px;
+  margin-left: 20px;
+  margin-bottom: -70px;
   position: relative;
   z-index: 1;
 }
@@ -120,6 +100,28 @@ main {
   z-index: -1;
 }
 
+
+.abstract-bgabout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
+  background-size: contain;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+#mystorytitle {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #f1f3f7;
+  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+}
+
 .aboutcontent-section {
   display: flex;
   flex-direction: column;
@@ -127,8 +129,6 @@ main {
   padding: 2rem;
   text-align: center;
 }
-
-/* ... (remaining CSS code) ... */
 
 .about-article {
   margin-top: 20px;
@@ -141,14 +141,7 @@ main {
   align-items: center;
 }
 
-#mystorytitle {
-  padding-top: 70px;
-  padding-bottom: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  color: #f1f3f7;
-  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-}
+
 
 /* Footer */
 footer {
@@ -157,10 +150,12 @@ footer {
   position: relative;
   width: 100%;
   padding: 5px 0;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   overflow: hidden;
+  margin-top: 80px;
 }
 
+/* Main footer container */
 .main {
   margin: 0;
   padding: 0 10px;
@@ -168,11 +163,6 @@ footer {
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-
-/* Add styling for other footer sections as needed */
-
-/*
-
 
 /* Footer header */
 .footer-header {
@@ -225,9 +215,8 @@ footer {
 }
 
 /* Social icons */
-
 .icons {
-  margin-top: -10px;
+  margin-top: -15px;
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
@@ -237,16 +226,25 @@ footer {
   color: #ffffff;
 }
 
-/* Copyright */
-hr {
+
+/* Copyright text */
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0; /* Adjust margin as needed */
+}
+
+.copyright hr {
   width: 80%;
-  margin: 3px auto;
   opacity: 40%;
   border: 0.01px solid white;
+  margin: 0.5rem 0; /* Adjust margin as needed */
 }
 
 /* Copyright text */
 .copyright p {
-  margin-left: 80px;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
+  margin: 0.5rem 0; /* Adjust margin as needed */
 }
