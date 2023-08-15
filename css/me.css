@@ -61,22 +61,21 @@ a {
 /* Adjust the size and position of the image wrapper */
 .aboutimage-section {
   position: relative;
-  width: 90%;
-  margin-top: -35px;
-  margin-bottom: -180px;
+  width: 100%;
+  max-width: 1000px; /* Set a maximum width */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   overflow: hidden; /* Hide potential overflow */
+  margin: 0 auto; /* Center the section */
 }
 
 .aboutimage-wrapper {
   max-width: 500px;
   position: relative;
-  margin-left: 170px; /* Center horizontally */
-  margin-bottom: -40px;
   text-align: center;
   z-index: 0;
+  margin-bottom: -120px;
 }
 
 .aboutimage-wrapper img {
@@ -100,22 +99,8 @@ a {
   z-index: -1;
 }
 
-
-.abstract-bgabout {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
-  background-size: contain;
-  opacity: 0.7;
-  z-index: -1;
-}
-
 #mystorytitle {
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: -30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   color: #f1f3f7;
