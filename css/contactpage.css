@@ -93,7 +93,7 @@ form {
   margin-top: 2.5%;
   width: 90%; /* Adjust width for smaller screens */
   max-width: 550px; /* Add max-width to limit on larger screens */
-  background: #858383;
+  background: #3f3b3b;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
