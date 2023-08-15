@@ -61,14 +61,14 @@ a {
 }
 /* portfolio gallery */
 .container1 {
-  max-width: 50%; /* Adjust the maximum width for responsiveness */
+  max-width: 67%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
   margin-bottom: -300px;
 }
 
 .container2 {
-  max-width: 50%; /* Adjust the maximum width for responsiveness */
+  max-width: 67%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
   margin-top: 370px;
