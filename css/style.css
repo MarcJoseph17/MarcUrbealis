@@ -6,29 +6,39 @@
 
 
 .navbar {
-  font-size: 0.8rem;
   display: flex;
-  justify-content: center;
-  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+  justify-content: right;
   padding: 2rem 0; /* Adjust top and bottom padding */
+  padding-right: 45px;
+  padding-top: 50px;
   margin-bottom: 100px; /* Remove margin bottom */
+ 
 }
 
+/* Styles for the logo section */
+.logo {
+  float: left; /* Float the logo to the left */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.logo img {
+  width: 125px; /* Adjust the maximum width of your logo */
+  height: auto;
+}
 
 header {
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  background-color: rgba(240, 237, 237, 0.543);
-  padding-bottom: 100px;
-  font-weight: bold;
+  color: #000000;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(255, 255, 255, 0.565);
+  padding-bottom: 90px;
+  font-weight:lighter;
 
 }
 
 body {
-  background-color: black;
-  color: #f1f3f7;
-  font-family: 'Poppins', sans-serif;
-
+  background-color: rgba(238, 236, 236, 0.386);
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -55,63 +65,76 @@ li {
 }
 a {
   text-decoration: none;
-  color: #f4f2f2;
+  color: #000000;
   font-weight: bold;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Common styles for both mobile and desktop */
+/* Adjust the size and position of the image wrapper */
 .image-section {
   display: flex;
-  flex-direction: column; /* Stack content vertically on small screens */
   align-items: center;
-  text-align: center; /* Center the text content */
+  justify-content: space-between;
+  text-align: center;
+}
+
+.image-caption {
+  flex: 1;
+  text-align: left;
+  padding: 30px;
+  max-width: 80%; /* Adjust the width as needed */
 }
 
 .image-wrapper {
+  max-width: 50%; /* Adjust the width as needed */
   position: relative;
-  margin: 0; /* Remove the left margin */
   overflow: hidden;
 }
 
 .abstract-bg {
   position: absolute;
   top: -15px;
-  left: 10%; /* Adjust the positioning to be relative to the screen width */
-  right: 10%; /* Adjust the positioning to be relative to the screen width */
-  bottom: -20px;
+  left: 15px;
+  right: 0px;
+  bottom: -80px;
   background: url("../images/Abstract-form-of-fluid.png") center center no-repeat;
-  background-size: 40%;
-  opacity: 0.7;
-  z-index: -1;
+  background-size: 65%;
+  z-index: -1; /* Set the z-index to move the abstract background behind other content */
 }
 
 .image-wrapper img {
-  width: 20%; /* Make the image responsive to screen width */
-  height: auto; /* Maintain image aspect ratio */
-  margin: 20px 0; /* Adjust margins for spacing */
+  width: 50%;
+  height: auto;
 }
 
 .image-caption h1{
-  font-size: large;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 20px; /* Add some spacing around the caption */
 }
 
 .image-caption #mynamehomepage {
   color: #ffffff;
   text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
-  margin: 10px 0;
-  font-size: x-large;
+  margin-top: -0px;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 0px;
 }
 
 .image-caption p {
-  color: #f0efef;
+  color: #000000;
   font-size: large; /* Adjust the font size */
   margin: 0;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .typing {
-  color: rgb(194, 157, 254);
+  color: rgb(149, 106, 220);
   font-size: large;
 
 }
@@ -191,7 +214,7 @@ a {
   
   .container h1::after {
     content: '';
-    background: #fffdfd;
+    background: #040000;
     width: 100px;
     height: 5px;
     position: absolute;
@@ -221,18 +244,22 @@ a {
   .service i {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #000000;
+  }
+
+  .service p {
+    color: #000000;
   }
   
   .service h2 {
     font-weight: 600;
     margin-bottom: 8px;
-    color: rgb(221, 185, 255);
+    color: rgb(160, 128, 191);
   }
   
   .service:hover {
-    background: #fbfbe4;
-    color: #070707;
+    background: #e9e4fd;
+    color: #994949;
     transform: scale(1.05);
   }
   
@@ -250,13 +277,24 @@ a {
 }
 
 #skills {
-  background-color: rgba(211, 211, 211, 0.049);
-  padding-bottom: 100px; /* Adjust padding for smaller screens */
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 80px; /* Adjust padding for smaller screens */
+}
+
+#skills::after {
+  content: '';
+  background: #040000;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #skillsheader {
   color: #ffffff;
-  font-size: large; /* Adjust font size for smaller screens */
+  font-size: xx-large; /* Adjust font size for smaller screens */
   text-shadow: 2px 2px 3px hsl(233, 88%, 65%), -2px -2px 3px hsl(277, 85%, 41%);
   text-align: center;
   margin: 50px 0; /* Adjust margin for smaller screens */
@@ -270,7 +308,7 @@ a {
 }
 
 .wrapper {
-  padding-top: 10px; /* Adjust padding for smaller screens */
+  padding-top: -500px; /* Adjust padding for smaller screens */
   margin-bottom: 150px; /* Adjust margin for smaller screens */
   display: flex; /* Change to flex to stack the progress bars */
   flex-direction: column; /* Stack the progress bars vertically */
@@ -278,17 +316,18 @@ a {
 }
 
 .wrapper h1 {
-  font-size: medium; /* Adjust font size for smaller screens */
+  font-size: x-large; /* Adjust font size for smaller screens */
   text-align: center;
   margin-bottom: 10px; /* Adjust margin for smaller screens */
   margin-top: 10px;
+  margin-right: 500px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .progress-bar {
-  height: 20px; /* Adjust height for smaller screens */
+  height: 30px; /* Adjust height for smaller screens */
   width: 60%;
-  background-color: #BFADA3;
+  background-color: #000000;
   border-radius: 10px; /* Adjust border radius for smaller screens */
   overflow: hidden;
   box-shadow: 1px 0 5px inset rgba(0, 0, 0, 0.2); /* Adjust box shadow for smaller screens */
@@ -343,7 +382,7 @@ a {
 /* Footer */
     footer {
       color: #f0efef;
-      background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+      background: linear-gradient(90deg, rgb(42, 31, 104) 0%, rgb(4, 0, 1) 100%);
       position: relative;
       width: 100%;
       padding: 5px 0;
