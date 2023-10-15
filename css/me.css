@@ -34,6 +34,7 @@ body {
 }
 main {
   margin-bottom: -20px;
+  background-color:rgba(243, 243, 243, 0.505);
 }
 
 
@@ -63,15 +64,14 @@ a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: large;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 /* Adjust the size and position of the image wrapper */
 .aboutimage-section {
   position: relative;
-  width: 100%;
-  max-width: 1000px; /* Set a maximum width */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -80,18 +80,18 @@ a {
 }
 
 .aboutimage-wrapper {
-  max-width: 500px;
   position: relative;
+  margin-right: 100px;
   text-align: center;
   z-index: 0;
   margin-bottom: -120px;
 }
 
 .aboutimage-wrapper img {
-  max-width: 350px; /* Adjust the max-width as needed */
-  margin-top: 110px;
-  margin-left: 20px;
-  margin-bottom: -70px;
+  max-width: 550px; /* Adjust the max-width as needed */
+  margin-top: 10px;
+  margin-right: 400px;
+  margin-bottom: -20px;
   position: relative;
   z-index: 1;
 }
@@ -99,15 +99,25 @@ a {
 .abstract-bgabout {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 300px;
   right: 0;
   bottom: 0;
-  background: url("../images/pngegg-41.png") center center no-repeat;
-  background-size: contain;
+  background: url("../images/sig.use.png") center center no-repeat;
+  background-size: 800px;
   opacity: 0.7;
   z-index: -1;
 }
-
+.abstract-bgabout2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 400px;
+  bottom: 0;
+  background: url("../images/pngegg-40.png") center center no-repeat;
+  background-size: 700px;
+  opacity: 0.7;
+  z-index: -1;
+}
 #mystorytitle {
   padding-bottom: -30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -119,7 +129,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -132,6 +142,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 /* home section styling */
