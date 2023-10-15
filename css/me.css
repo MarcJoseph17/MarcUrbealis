@@ -102,7 +102,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../images/Lovepik_com-401514909-blue-gradient-technology-touches-the-circle-from-big-to-small.png") center center no-repeat;
+  background: url("../images/pngegg-41.png") center center no-repeat;
   background-size: contain;
   opacity: 0.7;
   z-index: -1;
@@ -191,20 +191,17 @@ footer {
   margin-top: 0px;
 }
 
-footer h1,h3 {
+footer h1,
+footer h3 {
   font-size: larger;
-
 }
 
 footer h1 {
-  font-size:xx-large;
-
+  font-size: xx-large;
 }
 
-
 footer p {
-  font-size:x-small;
-
+  font-size: x-small;
 }
 
 /* Main footer container */
@@ -273,13 +270,13 @@ footer p {
 }
 
 /* Social icons */
-
 .icons {
   margin-top: -15px;
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
 }
+
 .icons i {
   font-size: 20px; /* Adjust the icon size as needed */
   color: #ffffff;
@@ -287,32 +284,30 @@ footer p {
 
 /* Copyright text */
 .copyright {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin: 2rem 0; /* Adjust margin as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0; /* Adjust margin as needed */
 }
 
 .copyright hr {
-width: 80%;
-opacity: 40%;
-border: 0.01px solid white;
-margin: 0.5rem 0; /* Adjust margin as needed */
+  width: 80%;
+  opacity: 40%;
+  border: 0.01px solid white;
+  margin: 0.5rem 0; /* Adjust margin as needed */
 }
 
 /* Copyright text */
 .copyright p {
-font-size: 1rem;
-margin: 0.5rem 0; /* Adjust margin as needed */
+  font-size: 1rem;
+  margin: 0.5rem 0; /* Adjust margin as needed */
 }
 
-
 @media screen and (max-width: 768px) {
-/* CSS rules for screens up to 768px */
+  /* CSS rules for screens up to 768px */
 }
 
 @media screen and (max-width: 480px) {
-/* CSS rules for screens up to 480px */
+  /* CSS rules for screens up to 480px */
 }
-
