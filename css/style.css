@@ -4,7 +4,6 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding: 1.6rem 0; /* 20% reduction */
   padding-right: 36px; /* 20% reduction */
   padding-top: 40px; /* 20% reduction */
   margin-bottom: 80px; /* Remove margin bottom */
@@ -77,7 +76,7 @@ a {
 
 .image-caption {
   flex: 1;
-  margin-left: 70px;
+  margin-left: 200px;
   padding: 24px; /* 20% reduction */
   font-size: medium;
   max-width: 30%; /* Adjust the width as needed */
@@ -87,21 +86,19 @@ a {
   max-width: 40%; /* Adjust the width as needed */
   position: relative;
   overflow: hidden;
-  margin-left: 40px;
-  
 }
 
 .image-wrapper img {
-  width: 35%; /* 20% reduction */
+  width: 40%; /* 20% reduction */
   height: auto;
-  margin-right: 400px;
+  margin-right: 1200px;
 }
 
 .abstract-bg {
   position: absolute;
-  top: -15px;
+  top: -0px;
   left: 0px;
-  right: 400px;
+  right: 350px;
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
   background-size: 100%;
@@ -124,7 +121,7 @@ a {
   color: #000000;
   font-size: 35px; /* 20% reduction */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -20px;
+  margin-left: 40px;
 
 }
 
