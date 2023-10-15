@@ -254,7 +254,7 @@ a {
 
 .progress-bar {
   height: 24px; /* 20% reduction */
-  width: 30%; /* 20% reduction */
+  width: 40%; /* 20% reduction */
   background-color: #a8a7a7;
   border-radius: 10px;
   overflow: hidden;
