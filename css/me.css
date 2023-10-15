@@ -1,35 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,900&family=Montserrat:wght@200;300;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-
 /* home section styling */
 
-
 .navbar {
-  font-size: 0.8rem;
   display: flex;
-  justify-content: center;
-  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+  justify-content: right;
   padding: 2rem 0; /* Adjust top and bottom padding */
-  margin-bottom: 0; /* Remove margin bottom */
+  padding-right: 45px;
+  padding-top: 50px;
+  margin-bottom: -40px; /* Remove margin bottom */
+ 
+}
+
+/* Styles for the logo section */
+.logo {
+  float: left; /* Float the logo to the left */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.logo img {
+  width: 125px; /* Adjust the maximum width of your logo */
+  height: auto;
 }
 
 header {
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  font-weight:lighter;
 
 }
 
 body {
-  margin: 0;
-  background-color: black;
-  color: #f1f3f7;
-  font-family: 'Poppins', sans-serif;
+  color: #020000;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main {
+  margin-bottom: -20px;
 }
 
-main {
-  font-size: smaller;
-}
+
 
 /* Remove the underline for the menu links */
 
@@ -54,8 +61,10 @@ li {
 }
 a {
   text-decoration: none;
-  color: #f4f2f2;
+  color: #000000;
   font-weight: bold;
+  font-size: large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Adjust the size and position of the image wrapper */
@@ -103,8 +112,7 @@ a {
   padding-bottom: -30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
-  color: #f1f3f7;
-  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
+  color: #000309;
 }
 
 .aboutcontent-section {
@@ -126,18 +134,77 @@ a {
   align-items: center;
 }
 
+/* home section styling */
+.circle{
+  position:absolute;
+  bottom:0;
+  width:20px;
+  aspect-ratio:1/1;
+  background:#0f0;
+  box-shadow:0 0 10px #0f0,
+             0 0 20px #0f0,
+             0 0 30px #0f0,
+             0 0 50px #0f0;
+  border-radius:50%;
+  animation:animate 5s linear forwards;
+}
+
+
+@keyframes animate{
+  0%{
+    transform:translateY(0);
+    opacity:1;
+  }
+  
+  50%{
+    opacity:1;
+  }
+  
+  100%{
+    transform:translateY(-100vh);
+    opacity:0;
+  }
+}
+
+
+.circle:before{
+  content:"";
+  position:background;
+  top:100%;
+  left:25%;
+  width:30%;
+  height:100vh;
+  opacity:0.5s;
+  background:linear-gradient(var(--background),transparent);
+}
+
 
 
 /* Footer */
 footer {
   color: #f0efef;
-  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+  background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(4, 0, 1) 100%);
   position: relative;
   width: 100%;
   padding: 5px 0;
-  font-size: 0.6rem;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 0px;
+}
+
+footer h1,h3 {
+  font-size: larger;
+
+}
+
+footer h1 {
+  font-size:xx-large;
+
+}
+
+
+footer p {
+  font-size:x-small;
+
 }
 
 /* Main footer container */
@@ -151,7 +218,9 @@ footer {
 
 /* Footer header */
 .footer-header {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* Office section, Link section */
@@ -159,15 +228,19 @@ footer {
 .link-des {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 5px;
   max-width: 150px;
+}
+
+.office a {
+  margin-top: 20px;
 }
 
 .office a,
 .link-des a {
   text-decoration: none;
   color: #98a8f8;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .num {
@@ -183,7 +256,7 @@ footer {
   color: #98a8f8;
   text-transform: uppercase;
   border-radius: 3px;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 /* Newsletter section */
@@ -200,6 +273,7 @@ footer {
 }
 
 /* Social icons */
+
 .icons {
   margin-top: -15px;
   margin-bottom: 20px;
@@ -211,25 +285,34 @@ footer {
   color: #ffffff;
 }
 
-
 /* Copyright text */
 .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 2rem 0; /* Adjust margin as needed */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 2rem 0; /* Adjust margin as needed */
 }
 
 .copyright hr {
-  width: 80%;
-  opacity: 40%;
-  border: 0.01px solid white;
-  margin: 0.5rem 0; /* Adjust margin as needed */
+width: 80%;
+opacity: 40%;
+border: 0.01px solid white;
+margin: 0.5rem 0; /* Adjust margin as needed */
 }
 
 /* Copyright text */
 .copyright p {
-  font-size: 0.9rem;
-  margin: 0.5rem 0; /* Adjust margin as needed */
+font-size: 1rem;
+margin: 0.5rem 0; /* Adjust margin as needed */
 }
+
+
+@media screen and (max-width: 768px) {
+/* CSS rules for screens up to 768px */
+}
+
+@media screen and (max-width: 480px) {
+/* CSS rules for screens up to 480px */
+}
+
