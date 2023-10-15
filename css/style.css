@@ -156,7 +156,7 @@ a {
   text-align: center;
   padding-top: 5%;
   margin-bottom: 60px;
-  font-size: 50px;
+  font-size: 35px;
   position: relative;
 }
 
@@ -218,7 +218,7 @@ a {
 
 #skillsheader {
   color: #000000f8;
-  font-size: 40px; /* 20% reduction */
+  font-size: 35px; /* 20% reduction */
   text-align: center;
   margin: 40px 0; /* 20% reduction */
   padding: 20px 0; /* 20% reduction */
@@ -240,7 +240,7 @@ a {
 
 .wrapper h1 {
   color: #000000;
-  font-size: x-large; /* Adjust font size for smaller screens */
+  font-size: medium; /* Adjust font size for smaller screens */
   text-align: center;
   margin: 8px 0; /* 20% reduction */
   font-weight: 200;
@@ -249,7 +249,7 @@ a {
 
 .progress-bar {
   height: 24px; /* 20% reduction */
-  width: 48%; /* 20% reduction */
+  width: 40%; /* 20% reduction */
   background-color: #a8a7a7;
   border-radius: 10px;
   overflow: hidden;
