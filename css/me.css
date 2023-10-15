@@ -25,13 +25,11 @@
 header {
   color: #000000;
   background-color: rgba(255, 255, 255, 0.565);
-  padding-bottom: 72px; /* 20% reduction */
   font-weight: lighter;
 }
 
 body {
-  background-color: rgba(238, 236, 236, 0.386);
-  color: #ffffff;
+  color: #000000;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -74,6 +72,7 @@ a {
   align-items: center; /* Center vertically */
   overflow: hidden; /* Hide potential overflow */
   margin: 0 auto; /* Center the section */
+  margin-top: -100px;
 }
 
 .aboutimage-wrapper {
@@ -86,7 +85,7 @@ a {
 
 .aboutimage-wrapper img {
   max-width: 550px; /* Adjust the max-width as needed */
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: 400px;
   margin-bottom: -20px;
   position: relative;
@@ -117,6 +116,7 @@ a {
 }
 #mystorytitle {
   padding-bottom: -30px;
+  margin-top: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   color: #000309;
@@ -139,7 +139,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 /* home section styling */
@@ -196,7 +196,8 @@ footer {
   width: 100%;
   padding: 5px 0;
   overflow: hidden;
-  margin-top: 0px;
+  margin-top: 100px;
+
 }
 
 footer h1,
