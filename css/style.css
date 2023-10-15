@@ -78,13 +78,15 @@ a {
   flex: 1;
   text-align: left;
   padding: 24px; /* 20% reduction */
-  max-width: 80%; /* Adjust the width as needed */
+  font-size: medium;
+  max-width: 100%; /* Adjust the width as needed */
 }
 
 .image-wrapper {
-  max-width: 60%; /* Adjust the width as needed */
+  max-width: 50%; /* Adjust the width as needed */
   position: relative;
   overflow: hidden;
+  
 }
 
 .image-wrapper img {
@@ -105,7 +107,7 @@ a {
 }
 
 .image-caption h1 {
-  font-size: 16px; /* Adjust font size as needed */
+  font-size: medium;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-left: 50px; /* 20% reduction */
 }
@@ -119,7 +121,7 @@ a {
 
 .image-caption p {
   color: #000000;
-  font-size: 20px; /* 20% reduction */
+  font-size: medium; /* 20% reduction */
   margin-left: 32px;
   text-align: left;
   padding-left: 16px; /* 20% reduction */
@@ -129,7 +131,7 @@ a {
 
 .typing {
   color: rgb(0, 86, 161);
-  font-size: 20px; /* 20% reduction */
+  font-size: medium;
 }
 
 /* Services */
@@ -240,7 +242,6 @@ a {
   font-size: x-large; /* Adjust font size for smaller screens */
   text-align: center;
   margin: 8px 0; /* 20% reduction */
-  margin-right: 400px; /* Adjust as needed */
   font-weight: 200;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
