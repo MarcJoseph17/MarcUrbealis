@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,900&family=Montserrat:wght@200;300;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-
-
 /* home section styling */
 
+/* Navbar */
 .navbar {
-  font-size: 0.8rem;
   display: flex;
-  justify-content: center;
-  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
-  padding: 2rem 0; /* Adjust top and bottom padding */
-  margin-bottom: 0; /* Remove margin bottom */
+  justify-content: right;
+  padding: 1.6rem 0; /* 20% reduction */
+  padding-right: 36px; /* 20% reduction */
+  padding-top: 40px; /* 20% reduction */
+  margin-bottom: 80px; /* Remove margin bottom */
 }
 
+/* Styles for the logo section */
+.logo {
+  float: left; /* Float the logo to the left */
+  padding: 20px; /* Adjust the padding as needed */
+  margin-left: 30px;
+}
 
+.logo img {
+  width: 100px; /* 20% reduction */
+  height: auto;
+}
 
 header {
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.565);
+  padding-bottom: 72px; /* 20% reduction */
+  font-weight: lighter;
 }
 
 body {
-  margin: 0;
-  background-color: black;
-  color: #f1f3f7;
-  font-family: 'Poppins', sans-serif;
-}
-
-main {
-  font-size: smaller;
+  background-color: rgba(238, 236, 236, 0.386);
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Remove the underline for the menu links */
-
 #menu {
   list-style: none;
   padding: 0;
@@ -45,15 +46,18 @@ main {
 #menu li a {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
+
 li {
   margin-left: 1rem;
 }
+
 a {
   text-decoration: none;
   color: #000000;
@@ -61,7 +65,6 @@ a {
   font-size: small;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 /* portfolio gallery */
 .container1 {
   max-width: 85%; /* Adjust the maximum width for responsiveness */

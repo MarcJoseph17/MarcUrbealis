@@ -13,7 +13,8 @@
 /* Styles for the logo section */
 .logo {
   float: left; /* Float the logo to the left */
-  padding: 8px; /* Adjust the padding as needed */
+  padding: 20px; /* Adjust the padding as needed */
+  margin-left: 30px;
 }
 
 .logo img {
@@ -76,64 +77,71 @@ a {
 
 .image-caption {
   flex: 1;
-  text-align: left;
+  margin-left: 70px;
   padding: 24px; /* 20% reduction */
   font-size: medium;
-  max-width: 100%; /* Adjust the width as needed */
+  max-width: 30%; /* Adjust the width as needed */
 }
 
 .image-wrapper {
-  max-width: 50%; /* Adjust the width as needed */
+  max-width: 40%; /* Adjust the width as needed */
   position: relative;
   overflow: hidden;
-  margin-left: 240px;
+  margin-left: 40px;
   
 }
 
 .image-wrapper img {
   width: 35%; /* 20% reduction */
   height: auto;
-  margin-left: 150px;
+  margin-right: 400px;
 }
 
 .abstract-bg {
   position: absolute;
   top: -15px;
-  left: 155px;
-  right: 0px;
+  left: 0px;
+  right: 400px;
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 55%;
+  background-size: 100%;
   z-index: -1; /* Set the z-index to move the abstract background behind other content */
 }
 
 .image-caption h1 {
   font-size: medium;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 50px; /* 20% reduction */
+  font-weight: lighter;
+  margin-right: -90px; /* 20% reduction */
+}
+
+.image-caption h2 {
+  margin-left: 110px;
+  font-weight: lighter;
 }
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 32px; /* 20% reduction */
+  font-size: 35px; /* 20% reduction */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding-left: 0;
+  margin-left: -20px;
+
 }
 
 .image-caption p {
   color: #000000;
   font-size: medium; /* 20% reduction */
-  margin-left: 32px;
+  margin-left: 0px;
   text-align: left;
-  padding-left: 16px; /* 20% reduction */
+  padding-left: 120px; /* 20% reduction */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 400;
 }
 
 .typing {
   color: rgb(0, 86, 161);
  font-size: medium;
 }
+
 
 /* Services */
 * {
@@ -249,7 +257,7 @@ a {
 
 .progress-bar {
   height: 24px; /* 20% reduction */
-  width: 40%; /* 20% reduction */
+  width: 30%; /* 20% reduction */
   background-color: #a8a7a7;
   border-radius: 10px;
   overflow: hidden;
