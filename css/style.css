@@ -119,9 +119,9 @@ a {
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 35px; /* Keep this size for impact */
+  font-size: 25px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 12px; /* Adjust margin for spacing on mobile */
+  margin-left: -50px; /* Adjust margin for spacing on mobile */
 }
 
 .image-caption p {
