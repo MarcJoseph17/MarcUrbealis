@@ -6,7 +6,7 @@
   justify-content: right;
   padding-right: 30px; /* 20% reduction */
   padding-top: 40px; /* 20% reduction */
-  margin-bottom: 130px; /* Remove margin bottom */
+  margin-bottom: 60px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -25,7 +25,7 @@
 header {
   color: #000000;
   background-color: rgba(255, 255, 255, 0.565);
-  padding-bottom: 72px; /* 20% reduction */
+  padding-bottom: 0px; /* 20% reduction */
   font-weight: lighter;
 }
 
@@ -88,6 +88,7 @@ a {
   max-width: 40%; /* Adjust the width as needed */
   position: relative;
   overflow: hidden;
+
 }
 
 .image-wrapper img {
@@ -121,7 +122,7 @@ a {
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 18px; /* Keep this size for impact */
+  font-size: 25px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-left: -0px; /* Adjust margin for spacing on mobile */
 }
@@ -159,9 +160,9 @@ a {
 .container h1 {
   color: #000000;
   text-align: center;
-  padding-top: 5%;
-  margin-bottom: 60px;
-  font-size: 35px;
+  padding-top: 4%;
+  margin-bottom: 40px;
+  font-size: 25px;
   position: relative;
 }
 
@@ -176,21 +177,21 @@ a {
   text-align: center;
   padding: 20px 10px;
   border-radius: 5px;
-  font-size: 11.2px; /* 20% reduction */
+  font-size: 15px; /* 20% reduction */
   cursor: pointer;
   background: transparent;
   transition: transform 0.5s, background 0.5s;
 }
 
 .service i {
-  font-size: 32px; /* 20% reduction */
+  font-size: 20px; /* 20% reduction */
   margin-bottom: 10px;
   color: #000000;
 }
 
 .service p {
   color: #000000;
-  font-size: medium;
+  font-size: smaller;
 }
 
 .service h2 {
@@ -223,10 +224,11 @@ a {
 
 #skillsheader {
   color: #000000f8;
-  font-size: 35px; /* 20% reduction */
+  font-size: 25px; /* 20% reduction */
   text-align: center;
   margin: 40px 0; /* 20% reduction */
   padding: 20px 0; /* 20% reduction */
+  margin-top: -3%;
 }
 
 .container {
@@ -245,16 +247,16 @@ a {
 
 .wrapper h1 {
   color: #000000;
-  font-size: medium; /* Adjust font size for smaller screens */
+  font-size: large; /* Adjust font size for smaller screens */
   text-align: center;
   margin: 8px 0; /* 20% reduction */
-  font-weight: 200;
+  font-weight: 800;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .progress-bar {
-  height: 24px; /* 20% reduction */
-  width: 40%; /* 20% reduction */
+  height: 18px; /* 20% reduction */
+  width: 70%; /* 20% reduction */
   background-color: #a8a7a7;
   border-radius: 10px;
   overflow: hidden;
@@ -311,7 +313,7 @@ footer {
   background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(4, 0, 1) 100%);
   position: relative;
   width: 100%;
-  padding: 5px 0;
+  padding: 0px 0px;
   overflow: hidden;
   margin-top: 0px;
 }
@@ -319,30 +321,39 @@ footer {
 footer h1,
 footer h3 {
   font-size: larger;
+  margin-left: 20px;
 }
 
 footer h1 {
   font-size: xx-large;
+  margin-left: 20px;
 }
 
 footer p {
   font-size: x-small;
+  margin-left: 20px;
 }
 
 /* Main footer container */
 .main {
   margin: 0;
-  padding: 0 10px;
+  padding: 0 20px;
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-left: 20px;
 }
 
 /* Footer header */
 .footer-header {
   font-size: 1rem;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
+  
+}
+
+#marc {
+  margin-top: -20px;
 }
 
 /* Office section, Link section */
@@ -350,23 +361,26 @@ footer p {
 .link-des {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  max-width: 150px;
+  gap: 15px;
+  max-width: 200px;
 }
 
 .office a {
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .office a,
 .link-des a {
   text-decoration: none;
   color: #98a8f8;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-left: 20px;
 }
 
 .num {
-  font-size: 0.6rem;
+  font-size: 1.2rem;
+
 }
 
 /* "Know More" button */
@@ -375,10 +389,11 @@ footer p {
   background-color: #fff;
   padding: 2px 4px;
   border: 1px solid #98a8f8;
-  color: #98a8f8;
+  color: #000000;
   text-transform: uppercase;
   border-radius: 3px;
   font-size: 0.8rem;
+  margin-left: 20px;
 }
 
 /* Newsletter section */
@@ -387,6 +402,7 @@ footer p {
   flex-direction: column;
   gap: 3px;
   max-width: 150px;
+  margin-left: 20px;
 }
 
 .newsletter-input {
@@ -400,10 +416,11 @@ footer p {
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
+  margin-left: 20px;
 }
 
 .icons i {
-  font-size: 20px; /* Adjust the icon size as needed */
+  font-size: 30px; /* Adjust the icon size as needed */
   color: #ffffff;
 }
 
@@ -417,7 +434,7 @@ footer p {
 }
 
 .copyright hr {
-  width: 80%;
+  width: 90%;
   opacity: 40%;
   border: 0.01px solid white;
   margin: 0.5rem 0; /* Adjust margin as needed */
@@ -426,7 +443,7 @@ footer p {
 /* Copyright text */
 .copyright p {
   font-size: 1rem;
-  margin: 0.5rem 0; /* Adjust margin as needed */
+  margin: 0rem 0; /* Adjust margin as needed */
 }
 
 @media screen and (max-width: 768px) {
