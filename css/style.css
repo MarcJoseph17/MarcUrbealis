@@ -95,17 +95,17 @@ a {
   width: 50%; /* Adjust the image size for mobile */
   margin-top: 40px;
   height: auto;
-  margin-right: 12px; /* Adjust margin for spacing on mobile */
+  margin-right: 150px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
   top: -0px;
   left: 0px;
-  right: 20px; /* Adjust the right position for mobile */
+  right: 150px; /* Adjust the right position for mobile */
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 70%;
+  background-size: 350px;
   z-index: -1;
 }
 
@@ -116,7 +116,7 @@ a {
 }
 
 .image-caption h2 {
-  margin-left: 12px; /* Adjust margin for spacing on mobile */
+  margin-left: -230px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
 }
 
@@ -124,7 +124,7 @@ a {
   color: #000000;
   font-size: 25px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -0px; /* Adjust margin for spacing on mobile */
+  margin-left: -250px; /* Adjust margin for spacing on mobile */
 }
 
 .image-caption p {
