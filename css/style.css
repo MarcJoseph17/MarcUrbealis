@@ -4,9 +4,9 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 36px; /* 20% reduction */
+  padding-right: 30px; /* 20% reduction */
   padding-top: 40px; /* 20% reduction */
-  margin-bottom: 80px; /* Remove margin bottom */
+  margin-bottom: 130px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -61,14 +61,16 @@ a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: small;
+  font-size: smaller;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Common styles for both mobile and desktop */
 /* Adjust the size and position of the image wrapper */
+/* Common styles for both mobile and desktop */
 .image-section {
   display: flex;
+  flex-direction: row; /* Maintain a row layout for both web and mobile */
   align-items: center;
   justify-content: space-between;
   text-align: center;
@@ -76,10 +78,9 @@ a {
 
 .image-caption {
   flex: 1;
-  margin-left: 200px;
-  padding: 24px; /* 20% reduction */
-  font-size: medium;
-  max-width: 30%; /* Adjust the width as needed */
+  padding: 12px; /* Make smaller for mobile */
+  font-size: smaller; /* Make the text smaller for mobile */
+  max-width: 30%; /* Adjust the width for better mobile fit */
 }
 
 .image-wrapper {
@@ -89,54 +90,51 @@ a {
 }
 
 .image-wrapper img {
-  width: 40%; /* 20% reduction */
+  width: 40%; /* Adjust the image size for mobile */
   height: auto;
-  margin-right: 1200px;
+  margin-right: 12px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
   top: -0px;
   left: 0px;
-  right: 350px;
+  right: 20px; /* Adjust the right position for mobile */
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 100%;
-  z-index: -1; /* Set the z-index to move the abstract background behind other content */
+  background-size: 70%;
+  z-index: -1;
 }
 
 .image-caption h1 {
-  font-size: medium;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: smaller; /* Make the text smaller for mobile */
   font-weight: lighter;
-  margin-right: -90px; /* 20% reduction */
+  margin-right: -12px; /* Adjust for spacing on mobile */
 }
 
 .image-caption h2 {
-  margin-left: 110px;
+  margin-left: 12px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
 }
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 35px; /* 20% reduction */
+  font-size: 35px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 40px;
-
+  margin-left: 12px; /* Adjust margin for spacing on mobile */
 }
 
 .image-caption p {
   color: #000000;
-  font-size: medium; /* 20% reduction */
-  margin-left: 0px;
+  font-size: smaller; /* Make the text smaller for mobile */
   text-align: left;
-  padding-left: 120px; /* 20% reduction */
+  padding-left: 12px; /* Adjust padding for spacing on mobile */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .typing {
   color: rgb(0, 86, 161);
- font-size: medium;
+  font-size: smaller; /* Make the text smaller for mobile */
 }
 
 
