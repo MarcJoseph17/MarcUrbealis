@@ -62,7 +62,7 @@ a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: xx-small;
+  font-size: x-small;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -81,7 +81,7 @@ a {
   flex: 1;
   padding: 12px; /* Make smaller for mobile */
   font-size: smaller; /* Make the text smaller for mobile */
-  max-width: 30%; /* Adjust the width for better mobile fit */
+  max-width: 80%; /* Adjust the width for better mobile fit */
 }
 
 .image-wrapper {
@@ -91,7 +91,8 @@ a {
 }
 
 .image-wrapper img {
-  width: 40%; /* Adjust the image size for mobile */
+  width: 50%; /* Adjust the image size for mobile */
+  margin-top: 40px;
   height: auto;
   margin-right: 12px; /* Adjust margin for spacing on mobile */
 }
@@ -103,7 +104,7 @@ a {
   right: 20px; /* Adjust the right position for mobile */
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 80%;
+  background-size: 70%;
   z-index: -1;
 }
 
@@ -120,9 +121,9 @@ a {
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 25px; /* Keep this size for impact */
+  font-size: 18px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -50px; /* Adjust margin for spacing on mobile */
+  margin-left: -0px; /* Adjust margin for spacing on mobile */
 }
 
 .image-caption p {
