@@ -13,12 +13,13 @@
 .logo {
   float: left; /* Float the logo to the left */
   padding: 20px; /* Adjust the padding as needed */
-  margin-left: 30px;
+  margin-left: -30px;
 }
 
 .logo img {
+  float: left; /* Float the logo to the left */
   width: 100px; /* 20% reduction */
-  height: auto;
+  margin-right: 0px;
 }
 
 header {
@@ -54,14 +55,14 @@ ul {
 }
 
 li {
-  margin-left: 1rem;
+  margin-left: .34rem;
 }
 
 a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: smaller;
+  font-size: xx-small;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -428,9 +429,41 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  /* CSS rules for screens up to 768px */
+  /* Adjust styles for tablets or smaller screens */
+  .image-caption {
+    max-width: 60%;
+    font-size: small;
+  }
+
+  .image-wrapper img {
+    width: 50%;
+  }
+
+  .image-caption h1 {
+    font-size: small;
+  }
+
+  .image-caption p {
+    font-size: x-small;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  /* CSS rules for screens up to 480px */
+  /* Further adjustments for mobile phones */
+  .image-caption {
+    max-width: 80%;
+    font-size: x-small;
+  }
+
+  .image-wrapper img {
+    width: 70%;
+  }
+
+  .image-caption h1 {
+    font-size: x-small;
+  }
+
+  .image-caption p {
+    font-size: xx-small;
+  }
 }
