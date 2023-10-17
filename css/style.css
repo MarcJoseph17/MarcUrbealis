@@ -103,7 +103,7 @@ a {
   right: 20px; /* Adjust the right position for mobile */
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 70%;
+  background-size: 80%;
   z-index: -1;
 }
 
@@ -135,7 +135,7 @@ a {
 
 .typing {
   color: rgb(0, 86, 161);
-  font-size: smaller; /* Make the text smaller for mobile */
+  font-size: small; /* Make the text smaller for mobile */
 }
 
 
