@@ -13,13 +13,13 @@
 .logo {
   float: left; /* Float the logo to the left */
   padding: 20px; /* Adjust the padding as needed */
-  margin-left: 8px;
+  margin-left: -18px;
+  margin-top: 8px;
 }
 
 .logo img {
   float: left; /* Float the logo to the left */
   width: 85px; /* 20% reduction */
-  margin-right: 0px;
 }
 
 header {
@@ -55,14 +55,14 @@ ul {
 }
 
 li {
-  margin-left: .9rem;
+  margin-left: .6rem;
 }
 
 a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -116,16 +116,16 @@ a {
 }
 
 .image-caption h2 {
-  margin-left: -230px; /* Adjust margin for spacing on mobile */
+  margin-left: -105px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 14px;
 }
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 25px; /* Keep this size for impact */
+  font-size: 22px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -250px; /* Adjust margin for spacing on mobile */
+  margin-left: -170px; /* Adjust margin for spacing on mobile */
 }
 
 .typing {
