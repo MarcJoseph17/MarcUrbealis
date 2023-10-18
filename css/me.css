@@ -4,33 +4,31 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding: 1.6rem 0; /* 20% reduction */
-  padding-right: 36px; /* 20% reduction */
-  padding-top: 40px; /* 20% reduction */
-  margin-bottom: 80px; /* Remove margin bottom */
+  padding-right: 0px; /* 20% reduction */
+  padding-top: 30px; /* 20% reduction */
+  margin-bottom: 90px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
 .logo {
   float: left; /* Float the logo to the left */
   padding: 20px; /* Adjust the padding as needed */
-  margin-left: 30px;
+  margin-left: -18px;
+  margin-top: -20px;
 }
 
 .logo img {
-  width: 100px; /* 20% reduction */
-  height: auto;
-}
-
-header {
-  color: #000000;
-  background-color: rgba(255, 255, 255, 0.565);
-  font-weight: lighter;
+  float: left; /* Float the logo to the left */
+  width: 85px; /* 20% reduction */
 }
 
 body {
   color: #000000;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  background-color: aliceblue;
 }
 
 /* Remove the underline for the menu links */
@@ -53,14 +51,14 @@ ul {
 }
 
 li {
-  margin-left: 1rem;
+  margin-left: .6rem;
 }
 
 a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: small;
+  font-size: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -70,7 +68,6 @@ a {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  overflow: hidden; /* Hide potential overflow */
   margin: 0 auto; /* Center the section */
   margin-top: -100px;
 }
@@ -84,10 +81,11 @@ a {
 }
 
 .aboutimage-wrapper img {
-  max-width: 550px; /* Adjust the max-width as needed */
+  max-width: 350px; /* Adjust the max-width as needed */
+  max-height: 400px;
   margin-top: 0px;
-  margin-right: 400px;
-  margin-bottom: -20px;
+  margin-right: 150px;
+  margin-bottom: 28px;
   position: relative;
   z-index: 1;
 }
@@ -95,30 +93,40 @@ a {
 .abstract-bgabout {
   position: absolute;
   top: 0;
-  left: 300px;
+  left: 230px;
   right: 0;
   bottom: 0;
   background: url("../images/sig.use.png") center center no-repeat;
-  background-size: 800px;
+  background-size: 300px;
   opacity: 0.7;
-  z-index: -1;
+  z-index: 1;
 }
 .abstract-bgabout2 {
   position: absolute;
   top: 0;
   left: 0;
-  right: 400px;
+  right: 90px;
   bottom: 0;
   background: url("../images/pngegg-40.png") center center no-repeat;
-  background-size: 700px;
+  background-size: 450px;
   opacity: 0.7;
   z-index: -1;
 }
 #mystorytitle {
   padding-bottom: -30px;
   margin-top: 50px;
+  padding-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  color: #000309;
+}
+
+#mytitle {
+  padding-bottom: -30px;
+  margin-top: -20px;
+  padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
   color: #000309;
 }
 
@@ -128,6 +136,7 @@ a {
   align-items: center;
   padding: 1rem;
   text-align: center;
+  font-size: 14px;
 }
 
 .about-article {
@@ -140,50 +149,6 @@ a {
   flex-direction: column;
   align-items: center;
   margin-bottom: 0px;
-}
-
-/* home section styling */
-.circle{
-  position:absolute;
-  bottom:0;
-  width:20px;
-  aspect-ratio:1/1;
-  background:#0f0;
-  box-shadow:0 0 10px #0f0,
-             0 0 20px #0f0,
-             0 0 30px #0f0,
-             0 0 50px #0f0;
-  border-radius:50%;
-  animation:animate 5s linear forwards;
-}
-
-
-@keyframes animate{
-  0%{
-    transform:translateY(0);
-    opacity:1;
-  }
-  
-  50%{
-    opacity:1;
-  }
-  
-  100%{
-    transform:translateY(-100vh);
-    opacity:0;
-  }
-}
-
-
-.circle:before{
-  content:"";
-  position:background;
-  top:100%;
-  left:25%;
-  width:30%;
-  height:100vh;
-  opacity:0.5s;
-  background:linear-gradient(var(--background),transparent);
 }
 
 
@@ -236,7 +201,8 @@ footer p {
 }
 
 #marc {
-  margin-top: -125px;
+  margin-top: -115px;
+  margin-left: 10px;
 }
 
 /* Office section, Link section */
@@ -246,6 +212,9 @@ footer p {
   flex-direction: column;
   gap: 15px;
   max-width: 200px;
+}
+.logo-des {
+  margin-left: -10px;
 }
 
 .office a {
