@@ -4,8 +4,8 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 30px; /* 20% reduction */
-  padding-top: 40px; /* 20% reduction */
+  padding-right: 50px; /* 20% reduction */
+  padding-top: 50px; /* 20% reduction */
   margin-bottom: 60px; /* Remove margin bottom */
 }
 
@@ -18,7 +18,7 @@
 
 .logo img {
   float: left; /* Float the logo to the left */
-  width: 100px; /* 20% reduction */
+  width: 85px; /* 20% reduction */
   margin-right: 0px;
 }
 
@@ -55,14 +55,14 @@ ul {
 }
 
 li {
-  margin-left: .34rem;
+  margin-left: .64rem;
 }
 
 a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: x-small;
+  font-size: small;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
