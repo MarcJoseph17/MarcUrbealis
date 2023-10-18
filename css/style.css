@@ -4,7 +4,7 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 0px; /* 20% reduction */
+  padding-right: 10px; /* 20% reduction */
   padding-top: 30px; /* 20% reduction */
   margin-bottom: 60px; /* Remove margin bottom */
 }
@@ -55,7 +55,7 @@ ul {
 }
 
 li {
-  margin-left: .6rem;
+  margin-left: .7rem;
 }
 
 a {
@@ -85,7 +85,7 @@ a {
 }
 
 .image-wrapper {
-  max-width: 45%; /* Adjust the width as needed */
+  max-width: 80%; /* Adjust the width as needed */
   position: relative;
   overflow: hidden;
   margin-right: -90px;
@@ -93,20 +93,19 @@ a {
 }
 
 .image-wrapper img {
-  width: 50%; /* Adjust the image size for mobile */
+  height: 230px;
   margin-top: 40px;
-  height: auto;
-  margin-right: 170px; /* Adjust margin for spacing on mobile */
+  margin-right: 70px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
   top: -0px;
   left: 0px;
-  right: 150px; /* Adjust the right position for mobile */
+  right: 80px; /* Adjust the right position for mobile */
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 640px;
+  background-size: 270px;
   z-index: -1;
 }
 
