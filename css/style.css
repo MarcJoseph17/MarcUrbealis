@@ -124,7 +124,7 @@ a {
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 20px; /* Keep this size for impact */
+  font-size: 16px; /* Keep this size for impact */
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-left: -30px; /* Adjust margin for spacing on mobile */
