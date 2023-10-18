@@ -74,36 +74,36 @@ a {
   flex-direction: row; /* Maintain a row layout for both web and mobile */
   align-items: center;
   justify-content: space-between;
-  text-align: center;
 }
 
 .image-caption {
   flex: 1;
   padding: 12px; /* Make smaller for mobile */
   font-size: small; /* Make the text smaller for mobile */
+  max-width: 80%; /* Adjust the width for better mobile fit */
 }
 
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  margin-right: -140px;
+  margin-right: -110px;
 
 }
 
 .image-wrapper img {
-  height: 250px;
+  height: 280px;
   margin-top: 40px;
-  margin-right: 180px; /* Adjust margin for spacing on mobile */
+  margin-right: 270px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
-  top: 40px;
+  top: -0px;
   left: 0px;
-  right: 160px; /* Adjust the right position for mobile */
-  bottom: -2px;
+  right: 220px; /* Adjust the right position for mobile */
+  bottom: -85px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 290px;
+  background-size: 360px;
   z-index: -1;
 }
 
@@ -114,7 +114,7 @@ a {
 }
 
 .image-caption h2 {
-  margin-left: -180px; /* Adjust margin for spacing on mobile */
+  margin-left: 0px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 14px;
 
@@ -122,10 +122,10 @@ a {
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 18px; /* Keep this size for impact */
+  font-size: 20px; /* Keep this size for impact */
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -190px; /* Adjust margin for spacing on mobile */
+  margin-left: 0px; /* Adjust margin for spacing on mobile */
 }
 
 .typing {
