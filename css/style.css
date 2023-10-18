@@ -13,7 +13,7 @@
 .logo {
   float: left; /* Float the logo to the left */
   padding: 20px; /* Adjust the padding as needed */
-  margin-left: 30px;
+  margin-left: -18px;
   margin-top: -20px;
 }
 
@@ -93,15 +93,15 @@ a {
 .image-wrapper img {
   height: 280px;
   margin-top: 40px;
-  margin-right: 340px; /* Adjust margin for spacing on mobile */
+  margin-right: 200px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
   top: 40px;
   left: 0px;
-  right: 315px; /* Adjust the right position for mobile */
-  bottom: -20px;
+  right: 200px; /* Adjust the right position for mobile */
+  bottom: -2px;
   background: url("../images/pngegg-37.png") center center no-repeat;
   background-size: 290px;
   z-index: -1;
@@ -114,22 +114,23 @@ a {
 }
 
 .image-caption h2 {
-  margin-left: -541px; /* Adjust margin for spacing on mobile */
+  margin-left: -180px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 14px;
+
 }
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 30px; /* Keep this size for impact */
+  font-size: 18px; /* Keep this size for impact */
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -500px; /* Adjust margin for spacing on mobile */
+  margin-left: -190px; /* Adjust margin for spacing on mobile */
 }
 
 .typing {
   color: rgb(0, 86, 161);
-  font-size: 18px; /* Make the text smaller for mobile */
+  font-size: small; /* Make the text smaller for mobile */
   font-weight: lighter;
 }
 
