@@ -4,8 +4,8 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 50px; /* 20% reduction */
-  padding-top: 50px; /* 20% reduction */
+  padding-right: 0px; /* 20% reduction */
+  padding-top: 30px; /* 20% reduction */
   margin-bottom: 60px; /* Remove margin bottom */
 }
 
@@ -14,7 +14,7 @@
   float: left; /* Float the logo to the left */
   padding: 20px; /* Adjust the padding as needed */
   margin-left: -18px;
-  margin-top: 8px;
+  margin-top: -20px;
 }
 
 .logo img {
@@ -80,14 +80,15 @@ a {
 .image-caption {
   flex: 1;
   padding: 12px; /* Make smaller for mobile */
-  font-size: smaller; /* Make the text smaller for mobile */
+  font-size: small; /* Make the text smaller for mobile */
   max-width: 80%; /* Adjust the width for better mobile fit */
 }
 
 .image-wrapper {
-  max-width: 40%; /* Adjust the width as needed */
+  max-width: 45%; /* Adjust the width as needed */
   position: relative;
   overflow: hidden;
+  margin-right: -90px;
 
 }
 
@@ -105,32 +106,35 @@ a {
   right: 150px; /* Adjust the right position for mobile */
   bottom: -25px;
   background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 340px;
+  background-size: 640px;
   z-index: -1;
 }
 
 .image-caption h1 {
-  font-size: smaller; /* Make the text smaller for mobile */
+  font-size: small; /* Make the text smaller for mobile */
   font-weight: lighter;
   margin-right: -12px; /* Adjust for spacing on mobile */
 }
 
 .image-caption h2 {
-  margin-left: -105px; /* Adjust margin for spacing on mobile */
+  margin-left: -15px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 14px;
+
 }
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 22px; /* Keep this size for impact */
+  font-size: 20px; /* Keep this size for impact */
+  font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -170px; /* Adjust margin for spacing on mobile */
+  margin-left: -30px; /* Adjust margin for spacing on mobile */
 }
 
 .typing {
   color: rgb(0, 86, 161);
-  font-size: 14px; /* Make the text smaller for mobile */
+  font-size: small; /* Make the text smaller for mobile */
+  font-weight: lighter;
 }
 
 
@@ -314,17 +318,14 @@ footer {
 footer h1,
 footer h3 {
   font-size: larger;
-  margin-left: 20px;
 }
 
 footer h1 {
   font-size: xx-large;
-  margin-left: 20px;
 }
 
 footer p {
   font-size: x-small;
-  margin-left: 20px;
 }
 
 /* Main footer container */
@@ -334,7 +335,6 @@ footer p {
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  margin-left: 20px;
 }
 
 /* Footer header */
@@ -346,7 +346,7 @@ footer p {
 }
 
 #marc {
-  margin-top: -20px;
+  margin-top: -0px;
 }
 
 /* Office section, Link section */
@@ -360,7 +360,7 @@ footer p {
 
 .office a {
   margin-top: 20px;
-  margin-left: 20px;
+
 }
 
 .office a,
@@ -368,7 +368,6 @@ footer p {
   text-decoration: none;
   color: #98a8f8;
   font-size: 1rem;
-  margin-left: 20px;
 }
 
 .num {
@@ -386,7 +385,7 @@ footer p {
   text-transform: uppercase;
   border-radius: 3px;
   font-size: 0.8rem;
-  margin-left: 20px;
+
 }
 
 /* Newsletter section */
@@ -395,7 +394,7 @@ footer p {
   flex-direction: column;
   gap: 3px;
   max-width: 150px;
-  margin-left: 20px;
+
 }
 
 .newsletter-input {
@@ -405,11 +404,11 @@ footer p {
 
 /* Social icons */
 .icons {
-  margin-top: -15px;
+  margin-top: 15px;
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
-  margin-left: 20px;
+  margin-left: -10px;
 }
 
 .icons i {
