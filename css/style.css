@@ -91,16 +91,16 @@ a {
 }
 
 .image-wrapper img {
-  height: 280px;
+  height: 250px;
   margin-top: 40px;
-  margin-right: 200px; /* Adjust margin for spacing on mobile */
+  margin-right: 180px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
   top: 40px;
   left: 0px;
-  right: 200px; /* Adjust the right position for mobile */
+  right: 160px; /* Adjust the right position for mobile */
   bottom: -2px;
   background: url("../images/pngegg-37.png") center center no-repeat;
   background-size: 290px;
