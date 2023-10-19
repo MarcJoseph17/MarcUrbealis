@@ -78,7 +78,7 @@ a {
 
 .image-caption {
   flex: 1;
-  padding: 12px; /* Make smaller for mobile */
+  padding: 0px; /* Make smaller for mobile */
   font-size: small; /* Make the text smaller for mobile */
   max-width: 80%; /* Adjust the width for better mobile fit */
 }
