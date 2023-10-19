@@ -74,64 +74,59 @@ a {
   flex-direction: row; /* Maintain a row layout for both web and mobile */
   align-items: center;
   justify-content: space-between;
+  text-align: center;
+  width: 100%;
 }
-
 .image-caption {
   flex: 1;
-  padding: 0px; /* Make smaller for mobile */
-  font-size: small; /* Make the text smaller for mobile */
+  padding: 12px; /* Make smaller for mobile */
+  font-size: smaller; /* Make the text smaller for mobile */
   max-width: 80%; /* Adjust the width for better mobile fit */
 }
-
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  margin-right: -110px;
-
 }
-
 .image-wrapper img {
-  height: 250px;
+  width: 100%; /* Adjust the image size for mobile */
   margin-top: 40px;
-  margin-right: 180px; /* Adjust margin for spacing on mobile */
+  margin-right: -150px; /* Adjust margin for spacing on mobile */
 }
-
 .abstract-bg {
   position: absolute;
   top: -0px;
   left: 0px;
-  right: 200px; /* Adjust the right position for mobile */
-  bottom: -45px;
+  right: -150px; /* Adjust the right position for mobile */
+  bottom: -25px;
   background: url("../images/pngegg-44.png") center center no-repeat;
-  background-size: 230px;
+  background-size: 150px;
   z-index: -1;
 }
-
 .image-caption h1 {
-  font-size: small; /* Make the text smaller for mobile */
+  font-size: smaller; /* Make the text smaller for mobile */
   font-weight: lighter;
   margin-right: -12px; /* Adjust for spacing on mobile */
 }
-
 .image-caption h2 {
-  margin-left: 0px; /* Adjust margin for spacing on mobile */
+  margin-left: -230px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
-  font-size: 14px;
-
 }
-
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 23px; /* Keep this size for impact */
-  font-weight: 600;
+  font-size: 25px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 0px; /* Adjust margin for spacing on mobile */
+  margin-left: -250px; /* Adjust margin for spacing on mobile */
 }
-
+.image-caption p {
+  color: #000000;
+  font-size: smaller; /* Make the text smaller for mobile */
+  text-align: left;
+  padding-left: 12px; /* Adjust padding for spacing on mobile */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .typing {
   color: rgb(0, 86, 161);
   font-size: small; /* Make the text smaller for mobile */
-  font-weight: lighter;
 }
 
 
