@@ -91,19 +91,19 @@ a {
 }
 
 .image-wrapper img {
-  height: 240px;
+  height: 300px;
   margin-top: 40px;
-  margin-right: 200px; /* Adjust margin for spacing on mobile */
+  margin-right: 220px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
   position: absolute;
   top: -0px;
   left: 0px;
-  right: 220px; /* Adjust the right position for mobile */
-  bottom: -85px;
-  background: url("../images/pngegg-39.png") center center no-repeat;
-  background-size: 300px;
+  right: 225px; /* Adjust the right position for mobile */
+  bottom: -42px;
+  background: url("../images/pngegg-44.png") center center no-repeat;
+  background-size: 330px;
   z-index: -1;
 }
 
@@ -122,7 +122,7 @@ a {
 
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 20px; /* Keep this size for impact */
+  font-size: 25px; /* Keep this size for impact */
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-left: 75px; /* Adjust margin for spacing on mobile */
