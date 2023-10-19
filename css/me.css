@@ -36,7 +36,7 @@ body {
 }
 
 main {
-  background-color: rgb(239, 243, 243);
+  background-color: rgba(11, 11, 11, 0.031);
   margin: 0;
 }
 
@@ -122,22 +122,15 @@ a {
   z-index: -1;
 }
 #mystorytitle {
-  padding-bottom: -30px;
-  margin-top: 50px;
-  padding-top: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  color: #000309;
+  margin: 50px 0 20px; /* Top margin 50px, bottom margin 20px */
+  padding: 20px 0;
 }
 
 #mytitle {
-  padding-bottom: -30px;
-  margin-top: -20px;
-  padding-top: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  color: #000309;
+  margin: -20px 0 0; /* Top margin -20px, no bottom margin */
+  padding: 20px 0;
 }
+
 
 .aboutcontent-section {
   display: flex;
@@ -154,10 +147,7 @@ a {
 
 .about-article2 {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0px;
+  margin-bottom: 0; /* Remove the bottom margin */
 }
 
 
@@ -282,4 +272,12 @@ footer p {
 .copyright p {
   font-size: 1rem;
   margin: 0rem 0;
+}
+
+/* Use media queries for responsive design */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens with a maximum width of 768px */
+  .aboutcontent-section {
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
 }
