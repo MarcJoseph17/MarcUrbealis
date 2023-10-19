@@ -91,9 +91,9 @@ a {
 }
 
 .image-wrapper img {
-  height: 280px;
+  height: 240px;
   margin-top: 40px;
-  margin-right: 270px; /* Adjust margin for spacing on mobile */
+  margin-right: 200px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
@@ -102,8 +102,8 @@ a {
   left: 0px;
   right: 220px; /* Adjust the right position for mobile */
   bottom: -85px;
-  background: url("../images/pngegg-37.png") center center no-repeat;
-  background-size: 360px;
+  background: url("../images/pngegg-39.png") center center no-repeat;
+  background-size: 300px;
   z-index: -1;
 }
 
@@ -114,7 +114,7 @@ a {
 }
 
 .image-caption h2 {
-  margin-left: 0px; /* Adjust margin for spacing on mobile */
+  margin-left: 75px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 14px;
 
@@ -125,7 +125,7 @@ a {
   font-size: 20px; /* Keep this size for impact */
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 0px; /* Adjust margin for spacing on mobile */
+  margin-left: 75px; /* Adjust margin for spacing on mobile */
 }
 
 .typing {
