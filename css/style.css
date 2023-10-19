@@ -93,7 +93,7 @@ a {
 .image-wrapper img {
   height: 250px;
   margin-top: 40px;
-  margin-right: 220px; /* Adjust margin for spacing on mobile */
+  margin-right: 180px; /* Adjust margin for spacing on mobile */
 }
 
 .abstract-bg {
@@ -103,7 +103,7 @@ a {
   right: 200px; /* Adjust the right position for mobile */
   bottom: -45px;
   background: url("../images/pngegg-44.png") center center no-repeat;
-  background-size: 250px;
+  background-size: 230px;
   z-index: -1;
 }
 
