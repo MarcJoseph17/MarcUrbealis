@@ -91,7 +91,7 @@ a {
 }
 
 .image-wrapper img {
-  height: 300px;
+  height: 250px;
   margin-top: 40px;
   margin-right: 220px; /* Adjust margin for spacing on mobile */
 }
@@ -100,10 +100,10 @@ a {
   position: absolute;
   top: -0px;
   left: 0px;
-  right: 225px; /* Adjust the right position for mobile */
+  right: 205px; /* Adjust the right position for mobile */
   bottom: -42px;
   background: url("../images/pngegg-44.png") center center no-repeat;
-  background-size: 330px;
+  background-size: 290px;
   z-index: -1;
 }
 
@@ -114,7 +114,7 @@ a {
 }
 
 .image-caption h2 {
-  margin-left: 75px; /* Adjust margin for spacing on mobile */
+  margin-left: 30px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 14px;
 
@@ -125,7 +125,7 @@ a {
   font-size: 25px; /* Keep this size for impact */
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 75px; /* Adjust margin for spacing on mobile */
+  margin-left: 30px; /* Adjust margin for spacing on mobile */
 }
 
 .typing {

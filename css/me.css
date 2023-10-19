@@ -4,9 +4,9 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 0px; /* 20% reduction */
+  padding-right: 10px; /* 20% reduction */
   padding-top: 30px; /* 20% reduction */
-  margin-bottom: 90px; /* Remove margin bottom */
+  margin-bottom: 0px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -22,13 +22,22 @@
   width: 85px; /* 20% reduction */
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 body {
   color: #000000;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
 }
 
 main {
-  background-color: aliceblue;
+  background-color: rgb(239, 243, 243);
+  margin: 0;
 }
 
 /* Remove the underline for the menu links */
@@ -136,7 +145,7 @@ a {
   align-items: center;
   padding: 1rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .about-article {
@@ -152,15 +161,12 @@ a {
 }
 
 
-
 /* Footer */
 footer {
   color: #f0efef;
   background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(4, 0, 1) 100%);
   position: relative;
-  padding: 0px 0px;
   overflow: hidden;
-  margin-top: 0px;
 }
 
 footer h1,
@@ -184,13 +190,9 @@ footer p {
 
 /* Main footer container */
 .main {
-  margin: 0;
-  padding: 0 0px;
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  margin-left: 0px;
-  
 }
 
 /* Footer header */
@@ -198,10 +200,6 @@ footer p {
   font-size: 1rem;
   margin-bottom: 20px;
   margin-top: 120px;
-}
-
-#marc {
-  margin-top: -115px;
   margin-left: 10px;
 }
 
@@ -212,13 +210,6 @@ footer p {
   flex-direction: column;
   gap: 15px;
   max-width: 200px;
-}
-.logo-des {
-  margin-left: -10px;
-}
-
-.office a {
-  margin-top: 20px;
   margin-left: 20px;
 }
 
@@ -227,12 +218,10 @@ footer p {
   text-decoration: none;
   color: #98a8f8;
   font-size: .8rem;
-  margin-left: 20px;
 }
 
 .num {
   font-size: 1rem;
-
 }
 
 /* "Know More" button */
@@ -264,15 +253,13 @@ footer p {
 
 /* Social icons */
 .icons {
-  margin-top: -15px;
-  margin-bottom: 20px;
+  margin: -15px 0 20px 20px;
   display: flex;
   gap: 10px;
-  margin-left: 20px;
 }
 
 .icons i {
-  font-size: 30px; /* Adjust the icon size as needed */
+  font-size: 30px;
   color: #ffffff;
 }
 
@@ -282,18 +269,17 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem 0; /* Adjust margin as needed */
+  margin: 1rem 0;
 }
 
 .copyright hr {
   width: 90%;
   opacity: 40%;
   border: 0.01px solid white;
-  margin: 0.5rem 0; /* Adjust margin as needed */
+  margin: 0.5rem 0;
 }
 
-/* Copyright text */
 .copyright p {
   font-size: 1rem;
-  margin: 0rem 0; /* Adjust margin as needed */
+  margin: 0rem 0;
 }
