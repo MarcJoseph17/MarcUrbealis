@@ -72,6 +72,24 @@ a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Style for the "Read More" button */
+.read-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0178f8; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.read-more-button:hover {
+  background-color: #8bc3ff; /* Hover background color */
+}
+
 /* Common styles for both mobile and desktop */
 /* Adjust the size and position of the image wrapper */
 /* Common styles for both mobile and desktop */
@@ -96,7 +114,7 @@ a {
 
 }
 .image-caption h2 {
-  margin-left: 35px; /* Adjust margin for spacing on mobile */
+  margin-left: -55px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 15px;
   margin-top: 0px;

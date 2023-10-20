@@ -73,6 +73,27 @@ a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Center the "Read More" button on the page */
+.read-more-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #0178f8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: fit-content; /* Adjust width as needed */
+}
+
+.read-more-button:hover {
+  background-color: #8bc3ff;
+}
+
+
+
+
 /* portfolio gallery */
 .container1 {
   max-width: 85%; /* Adjust the maximum width for responsiveness */
