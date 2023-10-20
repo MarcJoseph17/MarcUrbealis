@@ -328,7 +328,7 @@ footer p {
 }
 
 #marc {
-  margin-top: -0px;
+  margin-top: -15px;
   margin-left: -20px;
 }
 
@@ -354,7 +354,10 @@ footer p {
 
 .num {
   font-size: 1.2rem;
+}
 
+.logo-des, p {
+margin-left: -10px;
 }
 
 /* "Know More" button */
@@ -367,7 +370,7 @@ footer p {
   text-transform: uppercase;
   border-radius: 3px;
   font-size: 0.8rem;
-  margin-left: -20px;
+  margin-left: -10px;
 
 }
 
