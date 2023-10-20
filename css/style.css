@@ -4,7 +4,7 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 10px; /* 20% reduction */
+  padding-right: 15px; /* 20% reduction */
   padding-top: 30px; /* 20% reduction */
   margin-bottom: 60px; /* Remove margin bottom */
 }
@@ -12,9 +12,9 @@
 /* Styles for the logo section */
 .logo {
   float: left; /* Float the logo to the left */
-  padding: 45px; /* Adjust the padding as needed */
-  margin-left: -18px;
-  margin-top: -20px;
+  padding: 12px; /* Adjust the padding as needed */
+  margin-left: 8px;
+  margin-top: -5px;
 }
 
 .logo img {
@@ -24,15 +24,16 @@
 
 header {
   color: #000000;
-  background-color: rgba(255, 255, 255, 0.565);
-  padding-bottom: 0px; /* 20% reduction */
+  margin-bottom: -0px; /* 20% reduction */
   font-weight: lighter;
 }
 
 body {
-  background-color: rgba(238, 236, 236, 0.469);
-  color: #ffffff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main {
+  background-color: rgba(238, 236, 236, 0.469);
+  margin-top: -100px;
 }
 
 /* Remove the underline for the menu links */
@@ -72,10 +73,8 @@ a {
 .image-section {
   display: flex;
   flex-direction: row; /* Maintain a row layout for both web and mobile */
-  align-items: center;
-  justify-content: space-between;
   text-align: center;
-  width: 100%;
+  margin-left: -100px;
 }
 .image-caption {
   flex: 1;
@@ -83,50 +82,36 @@ a {
   font-size: smaller; /* Make the text smaller for mobile */
   max-width: 80%; /* Adjust the width for better mobile fit */
 }
-.image-wrapper {
-  position: relative;
-  overflow: hidden;
-}
+
 .image-wrapper img {
-  width: 100%; /* Adjust the image size for mobile */
-  margin-top: 40px;
-  margin-right: -150px; /* Adjust margin for spacing on mobile */
-}
-.abstract-bg {
-  position: absolute;
-  top: -0px;
-  left: 0px;
-  right: -150px; /* Adjust the right position for mobile */
-  bottom: -25px;
-  background: url("../images/pngegg-44.png") center center no-repeat;
-  background-size: 150px;
-  z-index: -1;
-}
-.image-caption h1 {
-  font-size: smaller; /* Make the text smaller for mobile */
-  font-weight: lighter;
-  margin-right: -12px; /* Adjust for spacing on mobile */
+  width: 350px; /* Adjust the image size for mobile */
+  margin-left: -200px;
+  margin-right: -300px;
+  margin-bottom: 12px;
+
 }
 .image-caption h2 {
-  margin-left: -230px; /* Adjust margin for spacing on mobile */
+  margin-left: -80px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
+  font-size: 15px;
+  margin-top: 0px;
 }
 .image-caption #mynamehomepage {
   color: #000000;
-  font-size: 25px; /* Keep this size for impact */
+  font-size: 28px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -250px; /* Adjust margin for spacing on mobile */
+  margin-left: -20px; /* Adjust margin for spacing on mobile */
+  margin-top: 200px;
 }
 .image-caption p {
   color: #000000;
   font-size: smaller; /* Make the text smaller for mobile */
-  text-align: left;
   padding-left: 12px; /* Adjust padding for spacing on mobile */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .typing {
   color: rgb(0, 86, 161);
-  font-size: small; /* Make the text smaller for mobile */
+  font-size: 16px; /* Make the text smaller for mobile */
 }
 
 
@@ -149,7 +134,7 @@ a {
 .container h1 {
   color: #000000;
   text-align: center;
-  padding-top: 4%;
+  padding-top: 2%;
   margin-bottom: 40px;
   font-size: 25px;
   position: relative;
@@ -215,9 +200,9 @@ a {
   color: #000000f8;
   font-size: 25px; /* 20% reduction */
   text-align: center;
-  margin: 40px 0; /* 20% reduction */
+  margin: 30px 0; /* 20% reduction */
   padding: 20px 0; /* 20% reduction */
-  margin-top: -3%;
+  margin-top: -2%;
 }
 
 .container {
@@ -428,44 +413,4 @@ footer p {
 .copyright p {
   font-size: 1rem;
   margin: 0rem 0; /* Adjust margin as needed */
-}
-
-@media screen and (max-width: 768px) {
-  /* Adjust styles for tablets or smaller screens */
-  .image-caption {
-    max-width: 1200px;
-    font-size: xx-small;
-  }
-
-  .image-wrapper img {
-    width: 45%;
-  }
-
-  .image-caption h1 {
-    font-size: small;
-  }
-
-  .image-caption p {
-    font-size: x-small;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* Further adjustments for mobile phones */
-  .image-caption {
-    max-width: 80%;
-    font-size: x-small;
-  }
-
-  .image-wrapper img {
-    width: 30%;
-  }
-
-  .image-caption h1, h2 {
-    font-size: x-small;
-  }
-
-  .image-caption p {
-    font-size: xx-small;
-  }
 }
