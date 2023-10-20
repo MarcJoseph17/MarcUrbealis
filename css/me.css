@@ -4,39 +4,35 @@
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 10px; /* 20% reduction */
-  padding-top: 30px; /* 20% reduction */
-  margin-bottom: 80px; /* Remove margin bottom */
+  padding-right: 18px; /* 20% reduction */
+  padding-top: 35px; /* 20% reduction */
+  margin-bottom: 60px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
 .logo {
   float: left; /* Float the logo to the left */
-  padding: 45px; /* Adjust the padding as needed */
-  margin-left: -18px;
-  margin-top: -20px;
+  padding: 12px; /* Adjust the padding as needed */
+  margin-left: 8px;
+  margin-top: 0px;
 }
 
 .logo img {
   float: left; /* Float the logo to the left */
   width: 85px; /* 20% reduction */
 }
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main {
+  background-color: rgba(238, 236, 236, 0.469);
+  margin-top: -100px;
+}
 html, body, main {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-body {
-  color: #000000;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-main {
-  background-color: rgba(238, 236, 236, 0.469);
-  margin-bottom: -300px;
 }
 
 /* Remove the underline for the menu links */
@@ -59,7 +55,7 @@ ul {
 }
 
 li {
-  margin-left: .6rem;
+  margin-left: .7rem;
 }
 
 a {
@@ -92,7 +88,7 @@ a {
   max-width: 350px; /* Adjust the max-width as needed */
   max-height: 400px;
   margin-top: 0px;
-  margin-right: 150px;
+  margin-right: -50px;
   margin-bottom: 115px;
   position: relative;
   z-index: 1;
@@ -101,8 +97,8 @@ a {
 .abstract-bgabout {
   position: absolute;
   top: 0;
-  left: 230px;
-  right: 0;
+  left: 0px;
+  right: 80px;
   bottom: 0;
   background: url("../images/sig.use.png") center center no-repeat;
   background-size: 300px;
@@ -113,7 +109,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  right: 90px;
+  right: -90px;
   bottom: 0;
   background: url("../images/pngegg-40.png") center center no-repeat;
   background-size: 450px;
@@ -148,7 +144,7 @@ a {
 }
 
 .about-article {
-  margin-top: 20px;
+  margin-top: -55px;
 }
 
 .about-article2 {
@@ -156,7 +152,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 
@@ -165,31 +161,29 @@ footer {
   color: #f0efef;
   background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(4, 0, 1) 100%);
   position: relative;
+  width: 100%;
+  padding: 0px 0px;
   overflow: hidden;
-  margin-top: 300px;
+  margin-top: 0px;
 }
 
 footer h1,
 footer h3 {
   font-size: larger;
-  margin-left: 20px;
-  margin-top: -105px;
 }
 
 footer h1 {
   font-size: xx-large;
-  margin-left: 20px;
-  margin-top: -105px;
 }
 
 footer p {
   font-size: x-small;
-  margin-left: 20px;
-  margin-top: -5px;
 }
 
 /* Main footer container */
 .main {
+  margin: 0;
+  padding: 0 20px;
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -199,8 +193,13 @@ footer p {
 .footer-header {
   font-size: 1rem;
   margin-bottom: 20px;
-  margin-top: 120px;
-  margin-left: 10px;
+  margin-top: 15px;
+  
+}
+
+#marc {
+  margin-top: -15px;
+  margin-left: -20px;
 }
 
 /* Office section, Link section */
@@ -210,18 +209,25 @@ footer p {
   flex-direction: column;
   gap: 15px;
   max-width: 200px;
-  margin-left: 20px;
+}
+
+.office a {
+  margin-top: 20px;
 }
 
 .office a,
 .link-des a {
   text-decoration: none;
   color: #98a8f8;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 .num {
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.logo-des, p {
+margin-left: -10px;
 }
 
 /* "Know More" button */
@@ -234,7 +240,8 @@ footer p {
   text-transform: uppercase;
   border-radius: 3px;
   font-size: 0.8rem;
-  margin-left: 20px;
+  margin-left: -10px;
+
 }
 
 /* Newsletter section */
@@ -243,7 +250,7 @@ footer p {
   flex-direction: column;
   gap: 3px;
   max-width: 150px;
-  margin-left: 20px;
+
 }
 
 .newsletter-input {
@@ -253,13 +260,15 @@ footer p {
 
 /* Social icons */
 .icons {
-  margin: -15px 0 20px 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   display: flex;
   gap: 10px;
+  margin-left: -10px;
 }
 
 .icons i {
-  font-size: 30px;
+  font-size: 30px; /* Adjust the icon size as needed */
   color: #ffffff;
 }
 
@@ -269,17 +278,18 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem 0;
+  margin: 2rem 0; /* Adjust margin as needed */
 }
 
 .copyright hr {
   width: 90%;
   opacity: 40%;
   border: 0.01px solid white;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0; /* Adjust margin as needed */
 }
 
+/* Copyright text */
 .copyright p {
   font-size: 1rem;
-  margin: 0rem 0;
+  margin: 0rem 0; /* Adjust margin as needed */
 }

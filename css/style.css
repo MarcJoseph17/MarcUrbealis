@@ -96,7 +96,7 @@ a {
 
 }
 .image-caption h2 {
-  margin-left: -80px; /* Adjust margin for spacing on mobile */
+  margin-left: -26px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 15px;
   margin-top: 0px;
@@ -105,7 +105,7 @@ a {
   color: #000000;
   font-size: 28px; /* Keep this size for impact */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: -20px; /* Adjust margin for spacing on mobile */
+  margin-left: 40px; /* Adjust margin for spacing on mobile */
   margin-top: 200px;
 }
 .image-caption p {
