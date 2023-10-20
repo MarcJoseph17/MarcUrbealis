@@ -1,38 +1,45 @@
-/* home section styling */
-
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: right;
-  padding: 1.6rem 0; /* 20% reduction */
-  padding-right: 36px; /* 20% reduction */
-  padding-top: 40px; /* 20% reduction */
-  margin-bottom: 80px; /* Remove margin bottom */
+  padding-right: 18px; /* 20% reduction */
+  padding-top: 35px; /* 20% reduction */
+  margin-bottom: 0px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
 .logo {
   float: left; /* Float the logo to the left */
-  padding: 20px; /* Adjust the padding as needed */
-  margin-left: 30px;
+  padding: 12px; /* Adjust the padding as needed */
+  margin-left: 8px;
+  margin-top: 0px;
 }
 
 .logo img {
-  width: 100px; /* 20% reduction */
-  height: auto;
+  float: left; /* Float the logo to the left */
+  width: 85px; /* 20% reduction */
+}
+
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
   color: #000000;
-  background-color: rgba(255, 255, 255, 0.565);
   padding-bottom: 72px; /* 20% reduction */
   font-weight: lighter;
 }
 
 body {
-  background-color: rgba(238, 236, 236, 0.386);
-  color: #ffffff;
+  color: #000000;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body, main {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Remove the underline for the menu links */
@@ -55,16 +62,17 @@ ul {
 }
 
 li {
-  margin-left: 1rem;
+  margin-left: .7rem;
 }
 
 a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-  font-size: small;
+  font-size: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 /* portfolio gallery */
 .container1 {
   max-width: 85%; /* Adjust the maximum width for responsiveness */
@@ -82,19 +90,24 @@ a {
 }
 
 h2 {
-  font-size: 1.8rem; /* Adjust the font size for better responsiveness */
+  font-size: 1.5rem; /* Adjust the font size for better responsiveness */
   text-align: center;
   margin: 0 auto;
   margin-bottom: 1rem;
+  margin-top: 50px;
 }
 
 .heading {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-size: 2rem;
   text-align: center;
-  text-shadow: 3px 3px 5px hsl(233, 88%, 65%), -3px -3px 5px hsl(277, 85%, 41%);
   margin: 0 auto;
+}
+
+.heading, h3 {
+  margin-top: -5px;
+
 }
 
 .container1 h3 {
@@ -140,6 +153,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-small;
   opacity: 0;
   transition: opacity 300ms ease-out;
 }
@@ -196,18 +210,31 @@ h2 {
 /* Footer */
 footer {
   color: #f0efef;
-  background: linear-gradient(90deg, rgba(39, 27, 111, 1) 0%, rgba(87, 25, 45, 1) 100%);
+  background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(4, 0, 1) 100%);
   position: relative;
   width: 100%;
-  padding: 5px 0;
-  font-size: 0.7rem;
+  padding: 0px 0px;
   overflow: hidden;
+  margin-top: -100px;
+}
+
+footer h1,
+footer h3 {
+  font-size: larger;
+}
+
+footer h1 {
+  font-size: xx-large;
+}
+
+footer p {
+  font-size: x-small;
 }
 
 /* Main footer container */
 .main {
   margin: 0;
-  padding: 0 10px;
+  padding: 0 20px;
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -215,7 +242,15 @@ footer {
 
 /* Footer header */
 .footer-header {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  
+}
+
+#marc {
+  margin-top: -15px;
+  margin-left: -20px;
 }
 
 /* Office section, Link section */
@@ -223,19 +258,27 @@ footer {
 .link-des {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  max-width: 150px;
+  gap: 15px;
+  max-width: 200px;
+}
+
+.office a {
+  margin-top: 20px;
 }
 
 .office a,
 .link-des a {
   text-decoration: none;
   color: #98a8f8;
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 .num {
-  font-size: 0.6rem;
+  font-size: 1.2rem;
+}
+
+.logo-des, p {
+margin-left: -10px;
 }
 
 /* "Know More" button */
@@ -244,10 +287,12 @@ footer {
   background-color: #fff;
   padding: 2px 4px;
   border: 1px solid #98a8f8;
-  color: #98a8f8;
+  color: #000000;
   text-transform: uppercase;
   border-radius: 3px;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+  margin-left: -10px;
+
 }
 
 /* Newsletter section */
@@ -256,6 +301,7 @@ footer {
   flex-direction: column;
   gap: 3px;
   max-width: 150px;
+
 }
 
 .newsletter-input {
@@ -264,18 +310,18 @@ footer {
 }
 
 /* Social icons */
-
 .icons {
-  margin-top: -10px;
+  margin-top: 15px;
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
-}
-.icons i {
-  font-size: 20px; /* Adjust the icon size as needed */
-  color: #ffffff;
+  margin-left: -10px;
 }
 
+.icons i {
+  font-size: 30px; /* Adjust the icon size as needed */
+  color: #ffffff;
+}
 
 /* Copyright text */
 .copyright {
@@ -287,7 +333,7 @@ footer {
 }
 
 .copyright hr {
-  width: 80%;
+  width: 90%;
   opacity: 40%;
   border: 0.01px solid white;
   margin: 0.5rem 0; /* Adjust margin as needed */
@@ -295,6 +341,6 @@ footer {
 
 /* Copyright text */
 .copyright p {
-  font-size: 0.9rem;
-  margin: 0.5rem 0; /* Adjust margin as needed */
+  font-size: 1rem;
+  margin: 0rem 0; /* Adjust margin as needed */
 }
