@@ -6,7 +6,7 @@
   justify-content: right;
   padding-right: 18px; /* 20% reduction */
   padding-top: 35px; /* 20% reduction */
-  margin-bottom: 160px; /* Remove margin bottom */
+  margin-bottom: 50px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -68,101 +68,100 @@ a {
 }
 
 
-.case-study {
+body {
+	background-color: #ffffff;
+}
+/* Start gallery styling here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 100rem;
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #1a1a1a;
+}
+
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.gallery-item {
   position: relative;
-  display: inline-block;
-  width: calc(50% - 10px); /* 2x2 gallery with a small gap between items */
-  height: 50px;
-  background-size: cover;
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(1, 38, 247, 0.5);
   overflow: hidden;
-  transition: all 0.4s ease;
 }
 
-.case-study__img {
+.gallery-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  transition: transform 400ms ease-out;
 }
 
-.case-study__overlay {
-  width: 100%;
-  height: 100%;
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+.overlay {
   position: absolute;
   top: 0;
-  z-index: 10;
-  &:after {
-    content: "";
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
-    background-color: #202020;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    z-index: -10;
-    left: 0;
-    transition: all 0.3s ease;
-  }
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 400ms ease;
 }
 
-.case-study__title {
-  position: relative;
-  top: 200px;
-  margin-bottom: 2rem;
-  margin-top: 0rem;
-  font-size: 2.8rem;
-  font-family: "Oswald";
-  font-weight: 100;
-  color: white;
-  text-align: center;
-  letter-spacing: 5px;
-  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+.gallery-item:hover .overlay {
+  opacity: 1;
 }
 
-.case-study__link {
-  position: relative;
-  display: block;
-  width: 60%;
-  top: 200px;
-  padding: 10px;
-  margin: 0 auto;
-  font-family: "Oswald";
+.overlay-title {
   color: white;
-  letter-spacing: 3px;
+  font-size: 1.0rem;
+  margin: 0;
+}
+
+.overlay-link {
+  color: white;
   text-decoration: none;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 3px;
-  font-size: 1.25em;
-  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
-  &:hover {
-    background-color: rgb(139, 172, 255);
-    color: #202020;
-  }
+  background: #0178f8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-.case-study:hover {
-  .case-study__title {
-    top: 0;
-  }
-  .case-study__link {
-    top: 0;
-  }
-
-  .case-study__overlay:after {
-    opacity: 0.75;
-  }
+.overlay-link:hover {
+  background: #8bc3ff;
 }
-
-/* Add this for responsive design */
-@media screen and (max-width: 768px) {
-  .case-study {
-    width: 100%; /* Full width on smaller screens */
-  }
-}
-
 
 
   /* Footer */
