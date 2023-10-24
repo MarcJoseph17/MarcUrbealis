@@ -6,7 +6,7 @@
   justify-content: right;
   padding-right: 18px; /* 20% reduction */
   padding-top: 35px; /* 20% reduction */
-  margin-bottom: 60px; /* Remove margin bottom */
+  margin-bottom: 23px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -114,7 +114,7 @@ a {
 
 }
 .image-caption h2 {
-  margin-left: -55px; /* Adjust margin for spacing on mobile */
+  margin-left: -40px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 15px;
   margin-top: 0px;
