@@ -72,10 +72,13 @@
   
 /* Style each section with a background color and padding */
 #intro-pic {
-  margin-left: 20px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
+    width: 40%;
+  }
+  
+  .intro p{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
 
 h2 {
     position: relative;
@@ -94,12 +97,12 @@ section {
 
 p {
     width: 75%;
-    font-size: small;
+    font-size: medium;
 }
 
 /* Style images within sections */
 section img {
-    max-width: 60%;
+    max-width: 65%;
     height: auto;
     display: block;
 }
