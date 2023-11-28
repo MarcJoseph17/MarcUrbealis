@@ -183,7 +183,7 @@ a {
 .service i {
   font-size: 20px; /* 20% reduction */
   margin-bottom: 10px;
-  color: #000000;
+  color: #3754aa;
 }
 
 .service p {
@@ -194,7 +194,7 @@ a {
 .service h2 {
   font-weight: 600;
   margin-bottom: 8px;
-  color: rgb(0, 86, 161);
+  color: rgb(0, 5, 10);
 }
 
 .service:hover {
