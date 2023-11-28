@@ -84,8 +84,8 @@ body {
 
 
 .container {
-  max-width: 100rem;
-  max-width: 75rem;
+  max-width: 80rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -173,7 +173,7 @@ footer {
   width: 100%;
   padding: 0px 0px;
   overflow: hidden;
-  margin-top: 800px;
+  margin-top: 280px;
 }
 
 footer h1,
