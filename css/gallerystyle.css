@@ -96,14 +96,14 @@ a {
 
 /* portfolio gallery */
 .container1 {
-  max-width: 80%; /* Adjust the maximum width for responsiveness */
+  max-width: 65%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
   margin-bottom: -300px;
 }
 
 .container2 {
-  max-width: 80%; /* Adjust the maximum width for responsiveness */
+  max-width: 65%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
   margin-top: 370px;
@@ -137,6 +137,9 @@ h2 {
   padding-top: 10px;
 }
 
+h3 {
+  text-align: center;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
