@@ -92,7 +92,7 @@ section {
     background-color: #fff;
     padding: 20px;
     margin: 10px 0;
-    box-shadow: 0 0 35px rgba(2, 133, 255, 0.1);
+    box-shadow: 0 0 15px rgba(5, 130, 144, 0.621);
 }
 
 p {
@@ -121,7 +121,7 @@ footer {
     width: 100%;
     padding: 0px 0px;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: -10px;
   }
   
   footer h1,
