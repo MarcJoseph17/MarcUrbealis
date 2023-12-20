@@ -39,6 +39,10 @@
     <body>
     <main>
         <section class="intro">
+            <div class="back-button">
+                <a href="#" onclick="goBack()">Back</a>
+              </div>
+
             <h2>The SunRunner BRT - Mobile App</h2>
             <!-- Introduction content goes here -->
             <img id="intro-pic" src="../images/use2phonescover.png" alt="">
@@ -157,6 +161,11 @@
             <!-- User persona content goes here -->
             <img src="../images/pain points.png" alt="User Persona Image Placeholder">
         </section>
+        <section class="pain-points">
+            <h2>User Flow Chart</h2>
+            <!-- User persona content goes here -->
+            <img src="../images/Screen Shot 2023-12-19 at 12.13.04 PM.png" alt="User Persona Image Placeholder">
+        </section>
         <section class="user-journey">
             <h2>User Journey 1</h2>
             <!-- User journey content goes here -->
@@ -174,6 +183,8 @@
         </section>
         <section class="sketches">
             <h2>Sketches</h2>
+            <h2>Preliminary Sketches</h2>
+            <p> Once the first round of interviews (intro conversations *limited exposure) were complete I proceeded to sketch out some ideas for the mobile app. I try to usually spend about a half hour with three sessions of sketches to have different perspectives on my work when clearing my mind and refocusing on the idea. I try my best to never fall inlove with my work as perfection doesnt exist and there is ALWAYS room for improvement!</p>
             <!-- Sketches content goes here -->
             <img src="../images/sketchesSunRun.3.jpg" alt="Sketches Image Placeholder">
             <br>
@@ -181,28 +192,33 @@
             <br>
             <img src="../images/sketchesSunRun.1.jpg" alt="Sketches Image Placeholder">
         </section>
+        <section class="low-fidelity">
+            <h2>Low-Fidelity v1.0</h2>
+            <!-- Low-fidelity prototypes content goes here -->
+            <img src="../images/Screen Shot 2023-12-19 at 2.05.37 PM.png" alt="Low-Fidelity Prototypes Image Placeholder">
+        </section>
+        <section class="high-fidelity">
+            <h2>Hi-Fidelity v1.0</h2>
+            <!-- Low-fidelity prototypes content goes here -->
+            <img src="../images/Screen Shot 2023-12-20 at 12.33.01 PM.png" alt="Low-Fidelity Prototypes Image Placeholder">
+        </section>
         <section class="user-testing">
-            <h2>User Testing - Prototype v.1</h2>
+            <h2>User Testing - Prototype v1.0</h2>
             <!-- User testing content goes here -->
             <video controls poster="video-poster.jpg" width="100%">
-                <source src="../videos/firstprototype-sunrunUSE.mov" type="video/mp4">
+                <source src="../videos/Screen Recording 2023-12-20 at 12.25.42 PM.mov" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </section>
         <section class="low-fidelity">
-            <h2>Low-Fidelity Prototypes</h2>
-            <!-- Low-fidelity prototypes content goes here -->
-            <img src="../images/LoFi-SunRunner.png" alt="Low-Fidelity Prototypes Image Placeholder">
+            <h2>Low-Fidelity v2.0</h2>
+            <!-- High-fidelity design content goes here -->
+            <img src="../images/Screen Shot 2023-12-20 at 1.45.37 PM.png" alt="High-Fidelity Design Image Placeholder">
         </section>
         <section class="high-fidelity">
-            <h2>High-Fidelity Designs</h2>
+            <h2>High-Fidelity v2.0(APPROVED)</h2>
             <!-- High-fidelity design content goes here -->
-            <img src="../images/HiFi Design screens SunRun.png" alt="High-Fidelity Design Image Placeholder">
-        </section>
-        <section class="screens">
-            <h2>Other Screens</h2>
-            <!-- Screens content goes here -->
-            <img src="../images/other screens-sunrunner.png" alt="Screens Image Placeholder">
+            <img src="../images/Screen Shot 2023-12-19 at 1.30.59 PM.png" alt="High-Fidelity Design Image Placeholder">
         </section>
         <section class="user-testing">
             <h2>Prototype Final Version</h2>
@@ -211,6 +227,11 @@
                 <source src="../videos/usethisfinalsunrunPROTO.mov" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+        </section>
+        <section class="style-guide">
+            <h2>Design System</h2>
+            <!-- Key takeaways content goes here -->
+            <img src="../images/Screen Shot 2023-12-19 at 12.26.18 PM.png" alt="">
         </section>
         <section class="key-takeaways">
             <h2>Key Takeaways</h2>
@@ -230,11 +251,6 @@
                 
              <p>To Further improve on this project a revamp of the PSTA website would be beneficial in correlation with the new app and its features!
                 </p>
-        </section>
-        <section class="style-guide">
-            <h2>Design System</h2>
-            <!-- Key takeaways content goes here -->
-            <img src="../images/Screen Shot 2023-12-05 at 11.05.36 AM.png" alt="">
         </section>
 
 </main>
@@ -303,6 +319,7 @@
         <p>© Copyright 2023 - Marc Urbealis.</p>
         </div>
       </footer>
+      <script>  function goBack() {  window.history.back(); } </script>
     <script src="../js/responsive.js"></script>
     <script src="../js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
