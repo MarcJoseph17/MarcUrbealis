@@ -6,7 +6,7 @@
   justify-content: right;
   padding-right: 18px; /* 20% reduction */
   padding-top: 35px; /* 20% reduction */
-  margin-bottom: 60px; /* Remove margin bottom */
+  margin-bottom: 6px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -110,7 +110,7 @@ form {
   background: #3f3b3b;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(34, 43, 77) 100%);
   position: absolute;
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Move back half of its width to center */
