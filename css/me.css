@@ -29,6 +29,28 @@ main {
   background-color: rgba(238, 236, 236, 0.469);
   margin-top: -100px;
 }
+
+/* Style for the "Read More" button */
+.read-more-button:hover {
+  background-color: #8bc3ff; /* Hover background color */
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* You can adjust this based on your layout */
+  
+}
+
+.read-more-button {
+  padding: 10px 20px; /* Adjust the padding as needed */
+  font-size: 16px;   /* Adjust the font size as needed */
+  /* Add any other styles you want for your button */
+  background-color: #0178f8; /* Button background color */
+  color: #fff; /* Button text color */
+}
+
+/* styling for page */
 html, body, main {
   margin: 0;
   padding: 0;
