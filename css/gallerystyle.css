@@ -96,14 +96,14 @@ a {
 
 /* portfolio gallery */
 .container1 {
-  max-width: 65%; /* Adjust the maximum width for responsiveness */
+  max-width: 58%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
-  margin-bottom: -300px;
+  margin-bottom: -325px;
 }
 
 .container2 {
-  max-width: 65%; /* Adjust the maximum width for responsiveness */
+  max-width: 58%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
   margin-top: 370px;
@@ -177,7 +177,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: x-small;
+  font-size: 8px;
   opacity: 0;
   transition: opacity 300ms ease-out;
 }
@@ -224,7 +224,7 @@ h3 {
   top:100%;
   left:25%;
   width:30%;
-  height:100vh;
+  height:200vh;
   opacity:0.5s;
   background:linear-gradient(var(--background),transparent);
 }

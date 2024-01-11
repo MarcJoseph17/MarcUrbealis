@@ -88,9 +88,9 @@ $(document).ready(function(){
 
 function lines(){
   //random width size
-  let sizeW = Math.random() * 12;
+  let sizeW = Math.random() * 10;
   //duration for animation
-  let duration = Math.random() * 3;
+  let duration = Math.random() * 4;
   let color = getrandomcolor();
   
   
@@ -113,7 +113,7 @@ function lines(){
 
 setInterval(function(){
   lines();
-},200);
+},100);
 
 
 
