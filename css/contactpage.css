@@ -6,7 +6,7 @@
   justify-content: right;
   padding-right: 18px; /* 20% reduction */
   padding-top: 35px; /* 20% reduction */
-  margin-bottom: 6px; /* Remove margin bottom */
+  margin-bottom: 60px; /* Remove margin bottom */
 }
 
 /* Styles for the logo section */
@@ -104,7 +104,7 @@ a {
 
 /* Form */
 form {
-  margin-top: 3.5%;
+  margin-top: 1.5%;
   width: 90%; /* Adjust width for smaller screens */
   max-width: 550px; /* Add max-width to limit on larger screens */
   background: #3f3b3b;
@@ -169,7 +169,7 @@ footer {
   width: 100%;
   padding: 0px 0px;
   overflow: hidden;
-  margin-top: 800px;
+  margin-top: 650px;
 }
 
 footer h1,
