@@ -1,12 +1,48 @@
-/* home section styling */
-
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 18px; /* 20% reduction */
-  padding-top: 35px; /* 20% reduction */
-  margin-bottom: -80px; /* Remove margin bottom */
+  padding-right: 18px;
+  padding-top: 35px;
+  margin-bottom: -80px;
+}
+
+/* Style for menu links */
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu li {
+  margin-left: .7rem;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+}
+
+#menu a:hover {
+  color: #00f;
+}
+
+#menu a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #00f;
+  transition: width 0.3s ease;
+}
+
+#menu a:hover:after {
+  width: 100%;
 }
 
 /* Styles for the logo section */
@@ -41,36 +77,6 @@ html, body, main {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Remove the underline for the menu links */
-#menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-#menu li a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-li {
-  margin-left: .7rem;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-size: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 /* Style for the "Read More" button */
 .read-more-button {
