@@ -1,13 +1,4 @@
-/* home section styling */
 
-/* Navbar */
-.navbar {
-    display: flex;
-    justify-content: right;
-    padding-right: 18px; /* 20% reduction */
-    padding-top: 35px; /* 20% reduction */
-    margin-bottom: 50px; /* Remove margin bottom */
-  }
   
   /* Styles for the logo section */
   .logo {
@@ -26,14 +17,14 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
+  
   .back-button {
-    margin-bottom: 30px;
-    margin-top:  30px;
-    margin-left: 8%;
+
+    margin-top:  190px;
   }
   
   .back-button a {
-  
+
     padding: 10px 20px;
     background-color: #2579ff;
     color: #fff;
@@ -54,35 +45,52 @@
   }
   
   /* Remove the underline for the menu links */
-  #menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  #menu li a {
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  li {
-    margin-left: .7rem;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    font-size: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+  /* Navbar */
+.navbar {
+  display: flex;
+  justify-content: right;
+  padding-right: 18px;
+  padding-top: 35px;
+  margin-bottom: -80px;
+}
+
+/* Style for menu links */
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu li {
+  margin-left: .7rem;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+}
+
+#menu a:hover {
+  color: #00f;
+}
+
+#menu a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #00f;
+  transition: width 0.3s ease;
+}
+
+#menu a:hover:after {
+  width: 100%;
+}
   
   
   body {

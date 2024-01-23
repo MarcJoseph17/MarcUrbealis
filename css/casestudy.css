@@ -1,12 +1,49 @@
-/* home section styling */
 
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: right;
-  padding-right: 18px; /* 20% reduction */
-  padding-top: 35px; /* 20% reduction */
-  margin-bottom: 50px; /* Remove margin bottom */
+  padding-right: 18px;
+  padding-top: 35px;
+  margin-bottom: -80px;
+}
+
+/* Style for menu links */
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu li {
+  margin-left: .7rem;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+}
+
+#menu a:hover {
+  color: #00f;
+}
+
+#menu a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #00f;
+  transition: width 0.3s ease;
+}
+
+#menu a:hover:after {
+  width: 100%;
 }
 
 /* Styles for the logo section */
@@ -22,20 +59,32 @@
   width: 85px; /* 20% reduction */
 }
 
+header {
+  color: #000000;
+  margin-bottom: -0px; /* 20% reduction */
+  font-weight: lighter;
+}
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+main {
+  background-color: rgba(238, 236, 236, 0.469);
+  margin-top: -100px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 .back-button {
-  margin-bottom: 30px;
-  margin-top:  30px;
-  margin-left: 8%;
+  margin-top:  190px;
 }
 
 .back-button a {
 
   padding: 10px 20px;
-  background-color: #2579ff;
+  background-color: #0178f8;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -46,58 +95,6 @@ body {
   background-color: #000701;
 }
 
-
-html, body, main {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-/* Remove the underline for the menu links */
-#menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-#menu li a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-li {
-  margin-left: .7rem;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-size: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-body {
-	background-color: #ffffff;
-}
-/* Start gallery styling here */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 
 .container {
