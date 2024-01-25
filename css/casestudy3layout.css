@@ -120,6 +120,11 @@ p {
     font-size: medium;
 }
 
+.pain-points img {
+  width: 1000px;
+  height: 400px;
+}
+
 /* Style images within sections */
 section img {
     max-width: 65%;
