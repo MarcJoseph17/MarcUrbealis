@@ -4,7 +4,8 @@
   justify-content: right;
   padding-right: 18px;
   padding-top: 35px;
-  margin-bottom: -80px;
+  margin-bottom: -120px;
+  
 }
 
 /* Style for menu links */
@@ -60,8 +61,9 @@
 
 header {
   color: #000000;
-  margin-bottom: -0px; /* 20% reduction */
+  margin-bottom: 0px; /* 20% reduction */
   font-weight: lighter;
+  box-shadow: 0 5px 5px rgba(0, 84, 209, 0.621);
 }
 
 body {
@@ -69,7 +71,7 @@ body {
 }
 main {
   background-color: rgba(238, 236, 236, 0.469);
-  margin-top: -100px;
+  margin-top: 0px;
 }
 html, body, main {
   margin: 0;
@@ -139,7 +141,7 @@ html, body, main {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .typing {
-  color: rgb(0, 86, 161);
+  color: rgb(0, 101, 189);
   font-size: 16px; /* Make the text smaller for mobile */
 }
 
@@ -271,7 +273,7 @@ html, body, main {
 .bar {
   width: 0;
   height: 100%;
-  background-color: rgb(0, 89, 205);
+  background-color: rgb(0, 105, 241);
 
   /* Lollipop background gradient */
   background-image: linear-gradient(
@@ -318,21 +320,17 @@ footer {
   width: 100%;
   padding: 0px 0px;
   overflow: hidden;
-  margin-top: -100px;
+  margin-top: 0px;
 }
 
 footer h1,
 footer h3 {
-  font-size: larger;
+  font-size: medium;
 }
 
-footer h1 {
-  font-size: xx-large;
-}
 
 footer p {
   font-size: x-small;
-  padding: 5px;
 }
 
 /* Main footer container */
@@ -355,6 +353,7 @@ footer p {
 #marc {
   margin-top: -15px;
   margin-left: -20px;
+  font-size: medium;
 }
 
 /* Office section, Link section */

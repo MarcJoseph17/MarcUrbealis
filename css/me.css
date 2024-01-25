@@ -76,15 +76,17 @@ html, body, main {
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
 .back-button {
-  margin-top:  190px;
-  margin-left: 65px;
+  margin-bottom: 0px;
+  margin-top:  160px;
+  margin-left: 4%;
 }
 
 .back-button a {
 
-  padding: 10px 20px;
-  background-color: #0178f8;
+  padding: 5px 10px;
+  background-color: #2579ff;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -223,12 +225,9 @@ footer {
 
 footer h1,
 footer h3 {
-  font-size: larger;
+  font-size: medium;
 }
 
-footer h1 {
-  font-size: xx-large;
-}
 
 footer p {
   font-size: x-small;
@@ -254,6 +253,7 @@ footer p {
 #marc {
   margin-top: -15px;
   margin-left: -20px;
+  font-size: medium;
 }
 
 /* Office section, Link section */

@@ -92,14 +92,14 @@ html, body {
   }
 
   .back-button {
-    margin-bottom: 30px;
-    margin-top:  30px;
+    margin-bottom: 60px;
+    margin-top:  0px;
     margin-left: 4%;
   }
   
   .back-button a {
   
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #2579ff;
     color: #fff;
     text-decoration: none;
@@ -194,17 +194,14 @@ footer {
   width: 100%;
   padding: 0px 0px;
   overflow: hidden;
-  margin-top: 650px;
+  margin-top: 700px;
 }
 
 footer h1,
 footer h3 {
-  font-size: larger;
+  font-size: medium;
 }
 
-footer h1 {
-  font-size: xx-large;
-}
 
 footer p {
   font-size: x-small;
@@ -230,6 +227,7 @@ footer p {
 #marc {
   margin-top: -15px;
   margin-left: -20px;
+  font-size: medium;
 }
 
 /* Office section, Link section */

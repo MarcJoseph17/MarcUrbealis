@@ -5,7 +5,7 @@
   justify-content: right;
   padding-right: 18px;
   padding-top: 35px;
-  margin-bottom: -80px;
+ 
 }
 
 /* Style for menu links */
@@ -68,24 +68,23 @@ header {
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-main {
-  background-color: rgba(238, 236, 236, 0.469);
-  margin-top: -100px;
-}
+
 html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
 .back-button {
-  margin-top:  190px;
-  margin-left: 65px;
+  margin-bottom: 0px;
+  margin-top:  61px;
+  margin-left: 4%;
 }
 
 .back-button a {
 
-  padding: 10px 20px;
-  background-color: #0178f8;
+  padding: 5px 10px;
+  background-color: #2579ff;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -95,7 +94,6 @@ html, body {
 .back-button a:hover {
   background-color: #000701;
 }
-
 
 
 .container {
@@ -188,17 +186,14 @@ footer {
   width: 100%;
   padding: 0px 0px;
   overflow: hidden;
-  margin-top: 280px;
+  margin-top: 50px;
 }
 
 footer h1,
 footer h3 {
-  font-size: larger;
+  font-size: medium;
 }
 
-footer h1 {
-  font-size: xx-large;
-}
 
 footer p {
   font-size: x-small;
@@ -224,6 +219,7 @@ footer p {
 #marc {
   margin-top: -15px;
   margin-left: -20px;
+  font-size: medium;
 }
 
 /* Office section, Link section */

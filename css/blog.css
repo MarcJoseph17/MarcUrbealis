@@ -95,7 +95,7 @@ section {
     box-shadow: 0 0 20px rgba(133, 207, 220, 0.621);
  
 }
-p {
+main p {
     font-size: smaller;
 }
 .thankyoupic {
@@ -116,12 +116,9 @@ footer {
 
 footer h1,
 footer h3 {
-  font-size: larger;
+  font-size: medium;
 }
 
-footer h1 {
-  font-size: xx-large;
-}
 
 footer p {
   font-size: x-small;
@@ -147,6 +144,7 @@ footer p {
 #marc {
   margin-top: -15px;
   margin-left: -20px;
+  font-size: medium;
 }
 
 /* Office section, Link section */

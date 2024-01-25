@@ -1,11 +1,12 @@
 /* Navbar */
 .navbar {
-    display: flex;
-    justify-content: right;
-    padding-right: 18px; /* 20% reduction */
-    padding-top: 35px; /* 20% reduction */
-    margin-bottom: 0px; /* Remove margin bottom */
-  }
+  display: flex;
+  justify-content: right;
+  padding-right: 18px; /* 20% reduction */
+  padding-top: 35px; /* 20% reduction */
+  margin-bottom: -24px; /* Remove margin bottom */
+}
+
   
   /* Styles for the logo section */
   .logo {
@@ -72,13 +73,14 @@
   
   .back-button {
     margin-bottom: 30px;
-    margin-top:  30px;
+    margin-top:  10px;
+    margin-left: 4%;
   }
   
   .back-button a {
-
-    padding: 10px 20px;
-    background-color: #14e345;
+  
+    padding: 5px 10px;
+    background-color: #00c41d;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -88,7 +90,6 @@
   .back-button a:hover {
     background-color: #000701;
   }
-  
 /* Style each section with a background color and padding */
 #intro-pic {
     width: 40%;

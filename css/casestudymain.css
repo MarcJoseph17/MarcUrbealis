@@ -19,13 +19,14 @@
   
   
   .back-button {
-    margin-top:  190px;
-    margin-left: 65px;
+    margin-bottom: 0px;
+    margin-top:  160px;
+    margin-left: 4%;
   }
   
   .back-button a {
-
-    padding: 10px 20px;
+  
+    padding: 5px 10px;
     background-color: #2579ff;
     color: #fff;
     text-decoration: none;
@@ -36,7 +37,6 @@
   .back-button a:hover {
     background-color: #000701;
   }
-  
   
   html, body, main {
     margin: 0;
