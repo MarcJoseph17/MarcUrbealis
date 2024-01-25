@@ -332,6 +332,7 @@ footer h1 {
 
 footer p {
   font-size: x-small;
+  padding: 5px;
 }
 
 /* Main footer container */
