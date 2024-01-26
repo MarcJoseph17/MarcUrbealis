@@ -121,8 +121,8 @@ p {
 }
 
 .pain-points img {
-  width: 1000px;
-  height: 400px;
+  max-width: 550px;
+  max-height: 400px;
 }
 
 /* Style images within sections */
