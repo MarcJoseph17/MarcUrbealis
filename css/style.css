@@ -5,7 +5,6 @@
   padding-right: 18px;
   padding-top: 35px;
   margin-bottom: -120px;
-  
 }
 
 /* Style for menu links */
@@ -69,16 +68,16 @@ header {
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 main {
   background-color: rgba(238, 236, 236, 0.469);
   margin-top: 0px;
-  
 }
+
 html, body, main {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
-  
 }
 
 
@@ -103,12 +102,14 @@ html, body, main {
 /* Common styles for both mobile and desktop */
 /* Adjust the size and position of the image wrapper */
 /* Common styles for both mobile and desktop */
+
 .image-section {
   display: flex;
   flex-direction: row; /* Maintain a row layout for both web and mobile */
   text-align: center;
   margin-left: -70px;
 }
+
 .image-caption {
   flex: 1;
   padding: 12px; /* Make smaller for mobile */
@@ -121,14 +122,15 @@ html, body, main {
   margin-left: -250px;
   margin-right: -500px;
   margin-bottom: -90px;
-
 }
+
 .image-caption h2 {
   margin-left: 0px; /* Adjust margin for spacing on mobile */
   font-weight: lighter;
   font-size: 15px;
   margin-top: 0px;
 }
+
 .image-caption #mynamehomepage {
   color: #000000;
   font-size: 28px; /* Keep this size for impact */
@@ -136,12 +138,14 @@ html, body, main {
   margin-left: 0px; /* Adjust margin for spacing on mobile */
   margin-top: 200px;
 }
+
 .image-caption p {
   color: #000000;
   font-size: smaller; /* Make the text smaller for mobile */
   padding-left: 12px; /* Adjust padding for spacing on mobile */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .typing {
   color: rgb(0, 101, 189);
   font-size: 16px; /* Make the text smaller for mobile */
@@ -168,7 +172,7 @@ html, body, main {
 .container h1 {
   color: #000000;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 1.5%;
   margin-bottom: 40px;
   font-size: 25px;
   position: relative;
