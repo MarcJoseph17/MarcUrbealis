@@ -127,8 +127,11 @@ section img {
     display: block;
 }
 section video {
-    width: 20%;
-    display: block;
+  width: 20%;
+  display: block;
+  border: 2px solid #1db976; /* Replace #yourBorderColor with the desired color code */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  margin: 10px; /* Optional: Add margin for spacing around the video */
 }
 
 /* Additional responsive styles can be added here */
