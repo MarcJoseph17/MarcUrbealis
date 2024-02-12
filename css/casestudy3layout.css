@@ -127,7 +127,7 @@ p {
 
 /* Style images within sections */
 section img {
-    max-width: 65%;
+    max-width: 75%;
     height: auto;
     display: block;
 }
