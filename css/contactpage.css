@@ -118,9 +118,9 @@ html, body {
 #hireme {
   padding-top: 1%; /* Adjust padding for better spacing */
   padding-bottom: 1%; /* Adjust padding for better spacing */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:monospace;
   font-weight: 700;
-  font-size: 30px; /* Adjust font size for better visibility on smaller screens */
+  font-size: 25px; /* Adjust font size for better visibility on smaller screens */
   color: #000000;
   text-align: center; /* Center text */
 }
