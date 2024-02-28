@@ -116,36 +116,20 @@ html, body {
   background-color: #8bc3ff;
 }
 
-
-
-/* Style for the video section */
-.video-section {
-  max-width: 58%; /* Adjust the maximum width for responsiveness */
-  margin: 0 auto;
-  padding: 0 1rem 1rem;
-  margin-top: 50px; /* Adjust the top margin as needed */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem; /* Gap between video items */
+/* Style for the video element */
+video {
+  display: block;
+  margin: 0 auto; /* Center the video horizontally */
+  max-width: 100%; /* Make the video responsive */
 }
 
-.video-item {
-  width: 100%; /* Adjust the width as needed */
+/* Additional styling for smaller screens */
+@media (max-width: 768px) {
+  video {
+    width: 80%; /* Make the video take up the full width on smaller screens */
+  }
 }
 
-.video-item video {
-  width: 100%;
-  height: auto;
-  border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
-}
-
-.video-section h2 {
-  font-size: 1.5rem; /* Adjust the font size for better responsiveness */
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  margin-top: 50px;
-}
 
 /* portfolio gallery */
 .container1 {
@@ -162,6 +146,8 @@ html, body {
   margin-top: 370px;
   margin-bottom: 50px;
 }
+
+
 
 h2 {
   font-size: 1.5rem; /* Adjust the font size for better responsiveness */
