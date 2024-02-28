@@ -121,12 +121,13 @@ video {
   display: block;
   margin: 0 auto; /* Center the video horizontally */
   max-width: 100%; /* Make the video responsive */
+  border: 2px solid #0178f8;; /* Replace #yourBorderColor with the desired color code */
 }
 
 /* Additional styling for smaller screens */
 @media (max-width: 768px) {
   video {
-    width: 80%; /* Make the video take up the full width on smaller screens */
+    width: 55%; /* Make the video take up the full width on smaller screens */
   }
 }
 
