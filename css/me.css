@@ -335,12 +335,9 @@ footer p {
 .link-des a {
   text-decoration: none;
   color: #98a8f8;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
-.num {
-  font-size: 1.2rem;
-}
 
 .logo-des, p {
 margin-left: -10px;
@@ -384,7 +381,7 @@ margin-left: -10px;
 }
 
 .icons i {
-  font-size: 30px; /* Adjust the icon size as needed */
+  font-size: 25px; /* Adjust the icon size as needed */
   color: #ffffff;
 }
 
@@ -406,6 +403,6 @@ margin-left: -10px;
 
 /* Copyright text */
 .copyright p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 0rem 0; /* Adjust margin as needed */
 }

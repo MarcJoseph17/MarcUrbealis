@@ -5,8 +5,6 @@
   padding-right: 18px;
   padding-top: 35px;
   margin-bottom: -120px;
-  box-shadow: 0 1px 1px rgba(8, 107, 255, 0.621);
-  
 }
 
 /* Style for menu links */
@@ -49,8 +47,10 @@
 
 /* Styles for the logo section */
 .logo {
-  margin-right: 550px;
-  margin-top: -20px;
+  float: left; /* Float the logo to the left */
+  padding: 12px; /* Adjust the padding as needed */
+  margin-left: 8px;
+  margin-top: 0px;
 }
 
 .logo img {
@@ -358,6 +358,7 @@ footer p {
   font-size: 1rem;
   margin-bottom: 20px;
   margin-top: 15px;
+  
 }
 
 #marc {
