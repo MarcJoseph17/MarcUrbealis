@@ -156,6 +156,7 @@ footer {
   footer h1,
   footer h3 {
     font-size: larger;
+    margin-top: -8px;
   }
   
   footer h1 {

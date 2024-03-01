@@ -223,10 +223,7 @@
   footer h1,
   footer h3 {
     font-size: larger;
-  }
-  
-  footer h1 {
-    font-size: xx-large;
+    margin-top: -8px;
   }
   
   footer p {

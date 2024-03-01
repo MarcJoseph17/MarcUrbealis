@@ -365,6 +365,7 @@ footer p {
   margin-top: -15px;
   margin-left: -20px;
   font-size: medium;
+  margin-bottom: -15px;
 }
 
 /* Office section, Link section */
@@ -374,6 +375,12 @@ footer p {
   flex-direction: column;
   gap: 15px;
   max-width: 200px;
+  margin-top: -0px;
+}
+
+.office-des {
+  margin-left: 10px;
+  margin-top: -10px;
 }
 
 .office a {
@@ -392,19 +399,20 @@ footer p {
 }
 
 .logo-des, p {
-margin-left: -10px;
+margin-left: -15px;
+padding: 5px;
 }
 
 /* "Know More" button */
 .btn-know {
   text-decoration: none;
   background-color: #fff;
-  padding: 2px 4px;
+  padding: 4px 5px;
   border: 1px solid #98a8f8;
   color: #000000;
   text-transform: uppercase;
   border-radius: 3px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-left: -10px;
 
 }
@@ -415,7 +423,6 @@ margin-left: -10px;
   flex-direction: column;
   gap: 3px;
   max-width: 150px;
-
 }
 
 .newsletter-input {

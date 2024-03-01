@@ -285,6 +285,7 @@ footer {
 footer h1,
 footer h3 {
   font-size: medium;
+  margin-top: -8px;
 }
 
 
