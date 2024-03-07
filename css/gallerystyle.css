@@ -148,6 +148,15 @@ video {
   margin-bottom: 50px;
 }
 
+.container3 {
+  max-width: 58%; /* Adjust the maximum width for responsiveness */
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+
 
 
 h2 {
