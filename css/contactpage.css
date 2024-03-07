@@ -244,6 +244,10 @@ footer p {
   margin-top: 20px;
 }
 
+.office-des p {
+  margin-left: 0px;
+}
+
 .office a,
 .link-des a {
   text-decoration: none;
@@ -319,6 +323,6 @@ margin-left: -10px;
 
 /* Copyright text */
 .copyright p {
-  font-size: 1rem;
+  font-size: 0.7rem;
   margin: 0rem 0; /* Adjust margin as needed */
 }

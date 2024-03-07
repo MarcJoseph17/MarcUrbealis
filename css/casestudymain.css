@@ -210,6 +210,7 @@
   
   
     /* Footer */
+
   footer {
     color: #f0efef;
     background: linear-gradient(90deg, rgb(0, 41, 130) 0%, rgb(4, 0, 1) 100%);
@@ -217,7 +218,7 @@
     width: 100%;
     padding: 0px 0px;
     overflow: hidden;
-    margin-top: 280px;
+    margin-top: 100px;
   }
   
   footer h1,
@@ -265,7 +266,11 @@
   .office a {
     margin-top: 20px;
   }
-  
+
+  .office-des p {
+    margin-left: 0px;
+  }
+
   .office a,
   .link-des a {
     text-decoration: none;
@@ -311,7 +316,7 @@
   
   /* Social icons */
   .icons {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 20px;
     display: flex;
     gap: 10px;
@@ -341,7 +346,7 @@
   
   /* Copyright text */
   .copyright p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin: 0rem 0; /* Adjust margin as needed */
   }
   

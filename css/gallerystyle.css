@@ -329,6 +329,10 @@ footer p {
   margin-top: 20px;
 }
 
+.office-des p {
+  margin-left: 0px;
+}
+
 .office a,
 .link-des a {
   text-decoration: none;

@@ -394,11 +394,11 @@ margin-left: -10px;
 
 /* Social icons */
 .icons {
-  margin-top: 15px;
+  margin-top: -5px;
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
-  margin-left: -10px;
+  margin-left: 0px;
 }
 
 .icons i {
@@ -424,6 +424,6 @@ margin-left: -10px;
 
 /* Copyright text */
 .copyright p {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   margin: 0rem 0; /* Adjust margin as needed */
 }
