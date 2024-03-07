@@ -344,6 +344,10 @@ footer p {
   max-width: 200px;
 }
 
+.office-des p {
+  margin-left: 0px;
+}
+
 .office a {
   margin-top: 20px;
 }
