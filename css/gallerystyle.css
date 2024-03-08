@@ -144,18 +144,31 @@ video {
   max-width: 58%; /* Adjust the maximum width for responsiveness */
   margin: 0 auto;
   padding: 0 1rem 1rem;
-  margin-top: 370px;
+  margin-top: -20px;
   margin-bottom: 50px;
 }
 
 .container3 {
-  max-width: 58%; /* Adjust the maximum width for responsiveness */
+  max-width: 60%;
   margin: 0 auto;
   padding: 0 1rem 1rem;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
+.container3 .gallery {
+  display: block;
+}
+
+.container3 .gallery-item {
+  width: 100%;
+}
+
+.container3 .gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 
 

@@ -342,6 +342,7 @@ footer p {
   flex-direction: column;
   gap: 15px;
   max-width: 200px;
+
 }
 
 .office-des p {
@@ -357,6 +358,7 @@ footer p {
   text-decoration: none;
   color: #98a8f8;
   font-size: 0.9rem;
+  
 }
 
 
