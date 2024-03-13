@@ -128,7 +128,7 @@ html, body {
   display: block;
   margin: 0 auto; /* Center the video horizontally */
   max-width: 100%; /* Make the video responsive */
-  border: 2px solid #fff89b; /* Replace #ff0000 with the desired color code for the second video */
+  border: 2px solid #efeaa4e1; /* Replace #ff0000 with the desired color code for the second video */
 }
 
 .video3 {
@@ -262,49 +262,7 @@ main h3 {
 .gallery-item:hover .image-description {
   opacity: 1;
 }
-/* home section styling */
-.circle{
-  position:absolute;
-  bottom:0;
-  width:20px;
-  aspect-ratio:1/1;
-  background:#0f0;
-  box-shadow:0 0 10px #0f0,
-             0 0 20px #0f0,
-             0 0 30px #0f0,
-             0 0 50px #0f0;
-  border-radius:50%;
-  animation:animate 5s linear forwards;
-}
 
-
-@keyframes animate{
-  0%{
-    transform:translateY(0);
-    opacity:1;
-  }
-  
-  50%{
-    opacity:1;
-  }
-  
-  100%{
-    transform:translateY(-100vh);
-    opacity:0;
-  }
-}
-
-
-.circle:before{
-  content:"";
-  position:background;
-  top:100%;
-  left:25%;
-  width:30%;
-  height:200vh;
-  opacity:0.5s;
-  background:linear-gradient(var(--background),transparent);
-}
 
 
 

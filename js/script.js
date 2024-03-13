@@ -84,66 +84,16 @@ $(document).ready(function(){
     });
 });
 
-//Circle Animation Starts here 
-
-function lines(){
-  //random width size
-  let sizeW = Math.random() * 10;
-  //duration for animation
-  let duration = Math.random() * 4;
-  let color = getrandomcolor();
-  
-  
-  let div = document.createElement('div');
-  div.setAttribute('class','circle');
-  document.body.appendChild(div);
-  div.style.width = 2 + sizeW + 'px';
-  div.style.left = Math.random() * + innerWidth + 'px';
-  div.style.animationDuration = 2 + duration + 's';
-  div.style.background = color;
-  div.style.boxShadow = `0 0 10px ${color},
-             0 0 20px ${color},
-             0 0 30px ${color},
-             0 0 50px ${color}`;
-  div.style.setProperty('--background', color);
-  
-  
-
-}
-
-setInterval(function(){
-  lines();
-},100);
-
-
-
-//get random color for circles
-
-function getrandomcolor(){
-  
-  let letters = "0123456789ABCDEF";
-  let color = "#";
-  
-  for(var i = 0; i < 6; i++){
-    
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  
-  return color;
-  
-  
-}
-  
-  //Circle Animation Ends here 
+// candycane loading animation
 
   function loading() {
-    document.querySelectorAll(".bar").forEach(function(current) {
+    document.querySelectorAll('.bar').forEach(function (current) {
       let startWidth = 0;
       const endWidth = current.dataset.size;
-      
-      /* 
-      setInterval() time sholud be set as trasition time / 100. 
-      In our case, 2 seconds / 100 = 20 milliseconds. 
+  
+      /*
+        setInterval() time should be set as transition time / 100.
+        In our case, 2 seconds / 100 = 20 milliseconds.
       */
       const interval = setInterval(frame, 20);
   
@@ -151,12 +101,13 @@ function getrandomcolor(){
         if (startWidth >= endWidth) {
           clearInterval(interval);
         } else {
-            startWidth++;
-            current.style.width = `${endWidth}%`;
-            current.firstElementChild.innerText = `${startWidth}%`;
-          }
-       }
+          startWidth++;
+          current.style.width = `${endWidth}%`;
+          current.firstElementChild.innerText = `${startWidth}%`;
+        }
+      }
     });
   }
   
   setTimeout(loading, 1000);
+  
