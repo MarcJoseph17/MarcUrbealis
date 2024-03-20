@@ -47,4 +47,11 @@ function showPopupMessage(message) {
       });
   }
 
+  // RESUME 
+
+  document.querySelector('.download-button').addEventListener('click', function() {
+    document.querySelector('.resume-link').click();
+  });
+  
+
 
