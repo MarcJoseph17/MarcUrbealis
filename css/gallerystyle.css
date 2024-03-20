@@ -141,7 +141,7 @@ html, body {
 /* Additional styling for smaller screens */
 @media (max-width: 768px) {
   .video1, .video2, .video3 {
-    width: 55%; /* Make the video take up the full width on smaller screens */
+    width: 75%; /* Make the video take up the full width on smaller screens */
   }
 }
 
@@ -204,7 +204,7 @@ html, body {
   display: block;
   margin: 0 auto; /* Center the video horizontally */
   max-width: 100%; /* Make the video responsive */
-  border: 2px solid #ff3333; /* Replace #ff0000 with the desired color code for the second video */
+  border: 2px solid #00ffd5; /* Replace #ff0000 with the desired color code for the second video */
 }
 
 
