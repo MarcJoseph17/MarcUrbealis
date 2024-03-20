@@ -101,7 +101,7 @@ html, body, main {
 .resume-container {
   display: flex;
   justify-content: center; /* Center the content horizontally */
-  margin-top: 50px; /* Adjust top margin as needed */
+  margin-top: 15px; /* Adjust top margin as needed */
 }
 
 .resume-download {
@@ -110,7 +110,7 @@ html, body, main {
 }
 
 .resume-link {
-  margin-right: 10px; /* Adjust spacing between the link and button */
+  margin-right: 15px; /* Adjust spacing between the link and button */
 }
 
 .download-button {
