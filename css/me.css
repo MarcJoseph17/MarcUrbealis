@@ -98,10 +98,15 @@ html, body, main {
 }
 
 /* Download Resume button on the page */
+.resume-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  margin-top: 50px; /* Adjust top margin as needed */
+}
+
 .resume-download {
   display: flex;
   align-items: center;
-  margin-top: 30px;
 }
 
 .resume-link {
@@ -109,11 +114,11 @@ html, body, main {
 }
 
 .download-button {
-  padding: 5px 10px;
+  padding: 4px 8px;
   background-color: #007bff; /* Adjust button background color */
   color: #fff; /* Adjust button text color */
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -121,6 +126,7 @@ html, body, main {
 .download-button:hover {
   background-color: #0056b3; /* Adjust hover background color */
 }
+
 
 
 /* Center the "Read More" button on the page */
