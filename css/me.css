@@ -97,6 +97,30 @@ html, body, main {
   background-color: #000701;
 }
 
+/* Download Resume button on the page */
+.resume-download {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.resume-link {
+  margin-right: 10px; /* Adjust spacing between the link and button */
+}
+
+.download-button {
+  padding: 5px 10px;
+  background-color: #007bff; /* Adjust button background color */
+  color: #fff; /* Adjust button text color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #0056b3; /* Adjust hover background color */
+}
 
 
 /* Center the "Read More" button on the page */
