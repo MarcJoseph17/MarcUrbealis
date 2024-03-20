@@ -171,6 +171,51 @@ html, body {
   margin-bottom: 0px;
 }
 
+/* Style for the video elements in container 4 */
+.v1 {
+  display: block;
+  margin: 0 auto; /* Center the video horizontally */
+  max-width: 100%; /* Make the video responsive */
+  border: 2px solid #1158ff; /* Replace #0178f8 with the desired color code for the first video */
+}
+
+.v2 {
+  display: block;
+  margin: 0 auto; /* Center the video horizontally */
+  max-width: 100%; /* Make the video responsive */
+  border: 2px solid #15ff00e1; /* Replace #ff0000 with the desired color code for the second video */
+}
+
+.v3 {
+  display: block;
+  margin: 0 auto; /* Center the video horizontally */
+  max-width: 100%; /* Make the video responsive */
+  border: 2px solid #515151; /* Replace #ff0000 with the desired color code for the second video */
+}
+
+.v4 {
+  display: block;
+  margin: 0 auto; /* Center the video horizontally */
+  max-width: 100%; /* Make the video responsive */
+  border: 2px solid #ffbb73; /* Replace #ff0000 with the desired color code for the second video */
+}
+
+.v5 {
+  display: block;
+  margin: 0 auto; /* Center the video horizontally */
+  max-width: 100%; /* Make the video responsive */
+  border: 2px solid #ff3333; /* Replace #ff0000 with the desired color code for the second video */
+}
+
+
+.container4 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .container3 .gallery {
   display: block;
 }
