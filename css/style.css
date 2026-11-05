@@ -1,4 +1,33 @@
 
+
+/* =====================================
+   GLOBAL RESET AND PAGE STYLES
+===================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 236, 236, 0.469);
+}
+
 /* =====================================
    MODERN HAMBURGER MENU
 ===================================== */
@@ -17,6 +46,7 @@
     cursor: pointer;
     padding: 10px;
     transition: background 0.3s ease, transform 0.3s ease;
+    flex-shrink: 0;
 }
 
 .modern-menu-btn:hover {
@@ -121,8 +151,7 @@ header > .logo {
     display: flex;
     align-items: center;
     padding: 12px;
-    margin-left: 8px;
-    margin-top: 0;
+    margin: 0 0 0 8px;
 }
 
 header > .logo img {
@@ -131,29 +160,8 @@ header > .logo img {
     width: 130px;
     height: 130px;
     object-fit: contain;
-    max-width: none;
+    max-width: 100%;
 }
-
-/* =====================================
-   GENERAL PAGE STYLES
-===================================== */
-
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
-                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-main {
-    background-color: rgba(238, 236, 236, 0.469);
-    margin-top: 0;
-}
-
-html, body, main {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
 
 /* =====================================
    READ MORE BUTTON
@@ -163,12 +171,12 @@ html, body, main {
     display: inline-block;
     padding: 10px 20px;
     background-color: #478ee6;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
-    margin: 40px auto 0;
+    margin: 25px auto 0;
     text-align: center;
 }
 
@@ -178,7 +186,7 @@ html, body, main {
 }
 
 /* =====================================
-   MY IMAGE WRAPPER
+   IMAGE SECTION - DESKTOP
 ===================================== */
 
 .image-section {
@@ -194,8 +202,6 @@ html, body, main {
     box-sizing: border-box;
     text-align: center;
 }
-
-/* Image container */
 
 .image-wrapper {
     display: flex;
@@ -234,8 +240,6 @@ html, body, main {
     text-align: center;
 }
 
-/* Heading */
-
 .image-caption h2 {
     margin: 0;
     padding: 0;
@@ -243,8 +247,6 @@ html, body, main {
     font-size: 15px;
     text-align: center;
 }
-
-/* Name */
 
 .image-caption #mynamehomepage {
     color: #000000;
@@ -255,8 +257,6 @@ html, body, main {
     padding: 0;
     text-align: center;
 }
-
-/* Description */
 
 .image-caption p {
     color: #000000;
@@ -269,97 +269,10 @@ html, body, main {
     line-height: 1.7;
 }
 
-/* Typing text */
-
 .typing {
     color: rgb(54, 150, 233);
     font-size: 16px;
     text-align: center;
-}
-
-/* =====================================
-   TABLET RESPONSIVE
-===================================== */
-
-@media screen and (max-width: 768px) {
-
-    .image-section {
-        gap: 30px;
-        padding: 30px 20px;
-    }
-
-    .image-wrapper {
-        flex-basis: 280px;
-    }
-
-    .image-wrapper img {
-        max-width: 280px;
-    }
-
-    .image-caption #mynamehomepage {
-        font-size: 24px;
-    }
-
-    .read-more-button {
-        margin-top: 30px;
-    }
-}
-
-/* =====================================
-   MOBILE RESPONSIVE
-===================================== */
-
-@media screen and (max-width: 600px) {
-
-    .image-section {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        padding: 35px 20px;
-        margin: 0 auto;
-    }
-
-    .image-wrapper {
-        width: 100%;
-        max-width: 300px;
-        flex: none;
-    }
-
-    .image-wrapper img {
-        width: 100%;
-        max-width: 280px;
-        margin: 0 auto;
-    }
-
-    .image-caption {
-        width: 100%;
-        max-width: 100%;
-        flex: none;
-        gap: 18px;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .image-caption h2 {
-        font-size: 14px;
-    }
-
-    .image-caption #mynamehomepage {
-        font-size: 25px;
-    }
-
-    .image-caption p {
-        font-size: 14px;
-    }
-
-    .typing {
-        font-size: 15px;
-    }
-
-    .read-more-button {
-        margin: 25px auto 0;
-    }
 }
 
 /* =====================================
@@ -376,7 +289,7 @@ html, body, main {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 8%;
+    padding: 0 5%;
     box-sizing: border-box;
 }
 
@@ -471,8 +384,6 @@ html, body, main {
     outline-offset: 4px;
 }
 
-
-
 /* =========================================
    FOOTER - REFERENCE DESIGN
 ========================================= */
@@ -496,8 +407,6 @@ html, body, main {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Main three-column layout */
-
 .site-footer .footer-container {
     width: 100%;
     max-width: 1500px;
@@ -508,8 +417,6 @@ html, body, main {
     text-align: center;
 }
 
-/* Individual columns */
-
 .site-footer .footer-column {
     display: flex;
     flex-direction: column;
@@ -518,8 +425,6 @@ html, body, main {
     min-width: 0;
 }
 
-/* Column headings */
-
 .site-footer .footer-column h2 {
     color: #ffffff;
     font-size: 2.65rem;
@@ -527,8 +432,6 @@ html, body, main {
     line-height: 1.4;
     margin: 0 0 38px;
 }
-
-/* Contact information */
 
 .site-footer .contact-details {
     display: flex;
@@ -575,7 +478,7 @@ html, body, main {
     transform: translateY(-3px);
 }
 
-/* X (Twitter) official logo */
+/* X logo */
 
 .site-footer .social-icons .x-social {
     width: 55px;
@@ -606,7 +509,7 @@ html, body, main {
     fill: #ffffff;
 }
 
-/* Quick links and About links */
+/* Footer links */
 
 .site-footer .footer-links {
     display: flex;
@@ -675,116 +578,466 @@ html, body, main {
     margin: 0;
 }
 
-/* =========================================
+/* =====================================
    TABLET RESPONSIVE
-========================================= */
+   Keep desktop-style layouts
+===================================== */
 
 @media screen and (max-width: 900px) {
 
+    header {
+        padding: 0 4%;
+    }
+
+    header > .logo img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .image-section {
+        gap: 25px;
+        padding: 30px 3%;
+    }
+
+    .image-wrapper {
+        flex: 0 1 42%;
+    }
+
+    .image-wrapper img {
+        max-width: 100%;
+    }
+
+    .image-caption {
+        flex: 0 1 58%;
+        gap: 15px;
+    }
+
+    .image-caption #mynamehomepage {
+        font-size: 24px;
+    }
+
+    .image-caption p {
+        font-size: 13px;
+    }
+
+    .read-more-button {
+        margin-top: 20px;
+    }
+
+    /* Services stay in three columns */
+
+    #services {
+        padding: 40px 0;
+    }
+
+    #services .services-section {
+        padding: 0 3%;
+    }
+
+    #services .servicerow {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 15px !important;
+    }
+
+    #services .servicerow > .service {
+        min-height: 210px;
+        padding: 22px 12px;
+    }
+
+    #services .service i {
+        font-size: 29px;
+    }
+
+    #services .service h2 {
+        font-size: 16px;
+    }
+
+    #services .service p {
+        font-size: 12px;
+    }
+
+    /* Footer stays in three columns */
+
     .site-footer {
-        min-height: 700px;
-        padding: 55px 4% 30px;
+        min-height: 650px;
+        padding: 50px 3% 25px;
     }
 
     .site-footer .footer-column h2 {
-        font-size: 2rem;
-        margin-bottom: 28px;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
     }
 
     .site-footer .contact-details,
     .site-footer .footer-links a {
-        font-size: 1.1rem;
-    }
-
-    .site-footer .footer-links {
-        gap: 20px;
-    }
-
-    .site-footer .footer-legal {
-        gap: 25px;
-        padding-top: 70px;
-    }
-
-    .site-footer .footer-legal a {
         font-size: 1rem;
-    }
-
-    .site-footer .footer-copyright {
-        padding-top: 75px;
-    }
-
-    .site-footer .footer-copyright p {
-        font-size: 1.1rem;
-    }
-}
-
-/* =========================================
-   MOBILE RESPONSIVE
-========================================= */
-
-@media screen and (max-width: 600px) {
-
-    .site-footer {
-        min-height: auto;
-        padding: 45px 20px 30px;
-    }
-
-    .site-footer .footer-container {
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-
-    .site-footer .footer-column h2 {
-        font-size: 1.9rem;
-        margin-bottom: 22px;
-    }
-
-    .site-footer .contact-details {
-        font-size: 1.05rem;
     }
 
     .site-footer .footer-links {
         gap: 18px;
     }
 
-    .site-footer .footer-links a {
-        font-size: 1.05rem;
-    }
-
     .site-footer .social-icons {
+        gap: 12px;
         margin-top: 25px;
-        gap: 15px;
     }
 
     .site-footer .social-icons a,
     .site-footer .social-icons .x-social {
-        width: 48px;
-        height: 48px;
-        font-size: 24px;
+        width: 43px;
+        height: 43px;
+        font-size: 21px;
     }
 
     .site-footer .social-icons .x-social svg {
-        width: 22px;
-        height: 22px;
+        width: 21px;
+        height: 21px;
     }
 
     .site-footer .footer-legal {
-        flex-direction: column;
-        gap: 18px;
-        margin-top: 55px;
-        padding-top: 0;
+        gap: 20px;
+        padding-top: 65px;
     }
 
     .site-footer .footer-legal a {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     .site-footer .footer-copyright {
-        margin-top: 55px;
-        padding-top: 0;
+        padding-top: 65px;
     }
 
     .site-footer .footer-copyright p {
-        font-size: 0.95rem;
+        font-size: 1rem;
+    }
+}
+
+/* =====================================
+   MOBILE RESPONSIVE
+   Preserve desktop-style layouts
+===================================== */
+
+@media screen and (max-width: 600px) {
+
+    /* Header */
+
+    header {
+        min-height: 65px;
+        padding: 0 4%;
+    }
+
+    header > .logo {
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    header > .logo img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .modern-menu-btn {
+        width: 45px;
+        height: 43px;
+        border-radius: 9px;
+    }
+
+    .modern-menu-btn span {
+        width: 22px;
+    }
+
+    .modern-nav-menu {
+        right: 4%;
+        width: 200px;
+    }
+
+    /* Image and caption remain side by side */
+
+    .image-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        max-width: 100%;
+        padding: 25px 12px;
+        margin: 0 auto;
+    }
+
+    .image-wrapper {
+        flex: 0 0 42%;
+        width: 42%;
+        max-width: 42%;
+        min-width: 0;
+        margin: 0;
+    }
+
+    .image-wrapper img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    .image-caption {
+        flex: 1 1 58%;
+        width: 58%;
+        max-width: 58%;
+        min-width: 0;
+        gap: 10px;
+        margin: 0;
+        padding: 0 3px;
+    }
+
+    .image-caption h2 {
+        font-size: clamp(10px, 2.8vw, 13px);
+        line-height: 1.4;
+    }
+
+    .image-caption #mynamehomepage {
+        font-size: clamp(16px, 4.5vw, 23px);
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    .image-caption p {
+        font-size: clamp(10px, 2.7vw, 13px);
+        line-height: 1.5;
+        padding: 0;
+    }
+
+    .typing {
+        font-size: clamp(11px, 3vw, 14px);
+    }
+
+    .read-more-button {
+        padding: 8px 12px;
+        font-size: 11px;
+        margin: 12px auto 0;
+        white-space: nowrap;
+    }
+
+    /* Services remain three columns */
+
+    #services {
+        padding: 30px 0;
+    }
+
+    #services .services-section {
+        padding: 0 10px;
+    }
+
+    #services .services-section h1 {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+
+    #services .servicerow {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 9px !important;
+        padding: 2px;
+        width: 100%;
+    }
+
+    #services .servicerow > .service {
+        min-width: 0;
+        min-height: 190px;
+        padding: 15px 7px;
+        border-radius: 9px;
+    }
+
+    #services .service i {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    #services .service h2 {
+        font-size: clamp(10px, 2.8vw, 13px);
+        line-height: 1.3;
+        margin-bottom: 8px;
+        overflow-wrap: anywhere;
+    }
+
+    #services .service p {
+        font-size: clamp(8px, 2.2vw, 11px);
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+    }
+
+    #services .servicerow > .service:hover {
+        transform: translateY(-3px);
+    }
+
+    /* Footer remains in three columns */
+
+    .site-footer {
+        min-height: 560px;
+        padding: 35px 10px 20px;
+    }
+
+    .site-footer .footer-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+        width: 100%;
+    }
+
+    .site-footer .footer-column {
+        min-width: 0;
+        padding: 0 2px;
+    }
+
+    .site-footer .footer-column h2 {
+        font-size: clamp(13px, 3.8vw, 18px);
+        line-height: 1.3;
+        margin-bottom: 18px;
+    }
+
+    .site-footer .contact-details {
+        font-size: clamp(8px, 2.4vw, 11px);
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    .site-footer .footer-links {
+        gap: 15px;
+        width: 100%;
+    }
+
+    .site-footer .footer-links a {
+        font-size: clamp(8px, 2.4vw, 11px);
+        line-height: 1.4;
+        overflow-wrap: anywhere;
+    }
+
+    .site-footer .social-icons {
+        gap: 5px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .site-footer .social-icons a,
+    .site-footer .social-icons .x-social {
+        width: 27px;
+        height: 27px;
+        font-size: 13px;
+    }
+
+    .site-footer .social-icons .x-social svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .site-footer .footer-legal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: auto;
+        padding-top: 55px;
+    }
+
+    .site-footer .footer-legal a {
+        font-size: clamp(8px, 2.3vw, 10px);
+        text-align: center;
+    }
+
+    .site-footer .footer-copyright {
+        margin-top: auto;
+        padding-top: 45px;
+    }
+
+    .site-footer .footer-copyright p {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+}
+
+/* =====================================
+   VERY SMALL MOBILE SCREENS
+===================================== */
+
+@media screen and (max-width: 380px) {
+
+    header > .logo img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .image-section {
+        gap: 8px;
+        padding: 20px 8px;
+    }
+
+    .image-wrapper {
+        flex-basis: 40%;
+        width: 40%;
+        max-width: 40%;
+    }
+
+    .image-caption {
+        flex-basis: 60%;
+        width: 60%;
+        max-width: 60%;
+    }
+
+    .image-caption #mynamehomepage {
+        font-size: 16px;
+    }
+
+    .image-caption p {
+        font-size: 10px;
+    }
+
+    #services .services-section {
+        padding: 0 6px;
+    }
+
+    #services .servicerow {
+        gap: 6px !important;
+    }
+
+    #services .servicerow > .service {
+        padding: 12px 5px;
+        min-height: 185px;
+    }
+
+    .site-footer {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .site-footer .footer-container {
+        gap: 4px;
+    }
+
+    .site-footer .footer-column h2 {
+        font-size: 13px;
+    }
+
+    .site-footer .contact-details,
+    .site-footer .footer-links a {
+        font-size: 8px;
+    }
+}
+
+/* =====================================
+   REDUCED MOTION ACCESSIBILITY
+===================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
     }
 }
